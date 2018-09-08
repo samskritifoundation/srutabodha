@@ -2,7 +2,7 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
       <div class="text-xs-center">
-        <img src="/v.png" alt="Vuetify.js" class="mb-5" />
+        <img src="../assets/img/sflogo.jpg" alt="Samskrti Foundation logo" class="mb-5" />
       </div>
       <v-card>
         <v-card-title class="headline">Interactive tutorial for Vrittaratnakara</v-card-title>
