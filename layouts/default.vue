@@ -59,11 +59,11 @@
     data () {
       return {
         clipped: false,
-        drawer: true,
+        drawer: false,
         fixed: false,
         items: [
-          { icon: 'apps', title: 'Welcome', to: '/' },
-          { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' }
+          { icon: 'info', title: 'About us', to: '/aboutsf' },
+          { icon: 'contact_support', title: 'Contact us', to: '/inspire' }
         ],
         miniVariant: false,
         right: true,
