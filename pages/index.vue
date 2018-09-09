@@ -12,8 +12,8 @@
         </v-card-text>
         <v-card-actions>
           <v-dialog v-model="dialog" scrollable>
-          <v-btn slot="activator" round color="primary"> About Vrittaratnakara</v-btn>
-          <v-card>
+          <v-btn slot="activator" round color="secondary"> About Vrittaratnakara</v-btn>
+          <v-card color="info">
             <v-card-title><span class="headline">Vrittaratnakara</span></v-card-title>
             <v-divider></v-divider>
             <v-card-text>Vritta Ratnakara of Kedara Bhatta (14th Century CE) is one of
@@ -21,14 +21,14 @@ the most popular texts on Sanskrit prosody. Though there are many books on Sansk
             <v-divider></v-divider>
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn color="blue" flat @click.native="dialog = false">Close</v-btn>
+              <v-btn color="accent" @click.native="dialog = false">Close</v-btn>
             </v-card-actions>
           </v-card>
           </v-dialog>
           <v-spacer></v-spacer>
-          <v-btn round color="primary" nuxt to="/lessons">Learn</v-btn>
+          <v-btn round color="secondary" nuxt to="/lessons">Learn</v-btn>
            <v-spacer></v-spacer>
-          <v-btn round color="primary" nuxt to="/exercises">Exercises</v-btn>
+          <v-btn round color="secondary" nuxt to="/exercises">Exercises</v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>

@@ -4,6 +4,7 @@
       :mini-variant.sync="miniVariant"
       :clipped="clipped"
       v-model="drawer"
+      color="accent"
       fixed
       app
     >
@@ -25,8 +26,8 @@
       </v-list>
     </v-navigation-drawer>
     <v-toolbar fixed app :clipped-left="clipped" color="primary">
-      <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title v-text="title"></v-toolbar-title>
+      <v-toolbar-side-icon color="primary" @click="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-title color="warning" v-text="title"></v-toolbar-title>
     </v-toolbar>
     <v-content class = "oldmap">
       <v-container>
@@ -48,7 +49,7 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-footer :fixed="fixed" app>
+    <v-footer :fixed="fixed" color="primary" app>
       <span>&copy; 2017</span>
     </v-footer>
   </v-app>
