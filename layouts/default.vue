@@ -64,7 +64,7 @@
         fixed: false,
         items: [
           { icon: 'info', title: 'About us', to: '/aboutsf' },
-          { icon: 'contact_support', title: 'Contact us', to: '/inspire' }
+          { icon: 'contact_support', title: 'Contact us', to: '/contact' }
         ],
         miniVariant: false,
         right: true,
