@@ -4,7 +4,7 @@
       <div class="text-xs-center">
         <img src="../assets/img/sflogo.jpg" alt="Samskrti Foundation logo" class="mb-5" />
       </div>
-      <v-card>
+      <v-card class = "bordered" color="warnning">
         <v-card-title class="headline">Interactive tutorial for Vrittaratnakara</v-card-title>
         <v-card-text>
           <p>Interactive self learning software for learning Sanskrit prosody, various types of meters used in poetry.</p>
@@ -45,4 +45,11 @@ export default {
 }
 </script>
 
-
+<style scoped>
+.bordered {
+      border: 10px solid transparent;
+-webkit-border-image: url('../assets/img/border.png') 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url('../assets/img/border.png') 30 stretch; /* Opera 11-12.1 */
+    border-image: url('../assets/img/border.png') 30 stretch;
+}
+</style>
