@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <v-navigation-drawer
       :mini-variant.sync="miniVariant"
       :clipped="clipped"
@@ -24,11 +24,11 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar fixed app :clipped-left="clipped">
+    <v-toolbar fixed app :clipped-left="clipped" color="primary">
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title v-text="title"></v-toolbar-title>
     </v-toolbar>
-    <v-content>
+    <v-content class = "oldmap">
       <v-container>
         <nuxt />
       </v-container>
@@ -73,3 +73,10 @@
     }
   }
 </script>
+
+<style scoped>
+.oldmap {
+  background: url("../assets/img/oldmap.jpg") no-repeat;
+  background-size: cover;
+}
+</style>
