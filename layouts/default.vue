@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class = "papyrus">
     <v-navigation-drawer
       :mini-variant.sync="miniVariant"
       :clipped="clipped"
@@ -25,9 +25,9 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar fixed app :clipped-left="clipped" color="primary">
+    <v-toolbar dark fixed app :clipped-left="clipped" color="primary">
       <v-toolbar-side-icon color="primary" @click="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title color="warning" v-text="title"></v-toolbar-title>
+      <v-toolbar-title v-text="title"></v-toolbar-title>
     </v-toolbar>
     <v-content class = "oldmap">
       <v-container>
@@ -49,7 +49,7 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-footer :fixed="fixed" color="primary" app>
+    <v-footer :fixed="fixed" color="primary" dark app>
       <span>&copy; 2017</span>
     </v-footer>
   </v-app>
@@ -69,7 +69,7 @@
         miniVariant: false,
         right: true,
         rightDrawer: false,
-        title: 'Vrittaratnakara'
+        title: 'Interactive Tutorial on Vrittaratnakara'
       }
     }
   }
@@ -79,5 +79,9 @@
 .oldmap {
   background: url("../assets/img/oldmap.jpg") no-repeat;
   background-size: cover;
+}
+
+.text-light {
+  font-color: white;
 }
 </style>
