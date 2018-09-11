@@ -1,8 +1,18 @@
 <template>
   <v-layout>
-    <v-flex text-xs-center>
-      <img src="../assets/img/samskriti_foundation_header.jpg" alt="Vuetify.js">
+    <div class="text-xs-center">
+    <sflogo title="संस्कृति-प्रतिष्ठानम्" subtitle1="Samskriti Foundation" subtitle2="An organisation engaged in the preservation, revival and propagation of the Indian Knowledge Systems and Cultural and Scientific Heritage of India" />
+    </div>
       <p>Address:</p>
-    </v-flex>
+    
   </v-layout>
 </template>
+
+<script>
+import sflogo from '../components/SFLogo.vue'
+export default {
+  components: {
+    sflogo
+  }
+}
+</script>
