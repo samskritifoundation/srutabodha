@@ -28,6 +28,11 @@
     <v-toolbar dark fixed app :clipped-left="clipped" color="primary">
       <v-toolbar-side-icon color="primary" @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title v-text="title"></v-toolbar-title>
+      <v-spacer></v-spacer>
+        <v-btn flat icon to="/">
+      <v-icon>home</v-icon>
+        </v-btn>
+      <span>Home</span>
     </v-toolbar>
     <v-content class = "oldmap">
       <v-container>
@@ -50,7 +55,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-footer :fixed="fixed" color="primary" dark app>
-      <span>&copy; 2017</span>
+      <span>&copy; 2018</span>
     </v-footer>
   </v-app>
 </template>
