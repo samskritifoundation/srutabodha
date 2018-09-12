@@ -13,7 +13,7 @@
         </v-card-text>
         <v-card-actions>
           <v-dialog v-model="dialog" scrollable>
-          <v-btn slot="activator" round color="accent" large> About <br> Vrittaratnakara</v-btn>
+          <v-btn slot="activator" round color="accent" large :ripple="{ class: 'error--text' }"> About <br> Vrittaratnakara</v-btn>
           <v-card color="info" class="papyrus" light>
             <v-card-title class="myheader papyrus">Vrittaratnakara</v-card-title>
             <v-divider></v-divider>
@@ -22,7 +22,7 @@ the most popular texts on Sanskrit prosody. Though there are many books on Sansk
             <v-divider></v-divider>
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn color="accent" @click.native="dialog = false">Close</v-btn>
+              <v-btn color="accent" @click.native="dialog = false" ripple>Close</v-btn>
             </v-card-actions>
           </v-card>
           </v-dialog>
