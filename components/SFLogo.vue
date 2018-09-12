@@ -9,7 +9,7 @@
                     <div>
                       <div class="myheader devanagari">{{title}}</div>
                       <div class="myheader">{{subtitle1}}</div>
-                      <h3>{{subtitle2}}</h3>
+                      <h3 class="myheader3">{{subtitle2}}</h3>
                     </div>
                   </v-card-title>
                 </v-flex>
