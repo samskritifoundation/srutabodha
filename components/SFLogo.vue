@@ -7,7 +7,7 @@
                 <v-flex xs9>
                   <v-card-title primary-title>
                     <div>
-                      <div class="myheader">{{title}}</div>
+                      <div class="myheader devanagari">{{title}}</div>
                       <div class="myheader">{{subtitle1}}</div>
                       <h3>{{subtitle2}}</h3>
                     </div>

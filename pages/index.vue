@@ -1,18 +1,19 @@
 <template>
   <v-layout column justify-center align-center class="papyrus">
-    <v-flex xs12 sm8 md6>
+    <v-flex xs12 sm8 md8>
       <div class="text-xs-center">
 <sflogo title="संस्कृति-प्रतिष्ठानम्" subtitle1="Samskriti Foundation" subtitle2="presents" />
       </div>
-      <v-card class = "bordered" color="primary" dark>
-        <v-card-title class="myheader papyrus">Interactive tutorial for Vrittaratnakara</v-card-title>
+      <v-card class = "bordered text-xs-center" color="primary" dark>
+        <v-card-title class="myheader2 devanagari text-xs-center">वृत्तरत्नाकर-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</v-card-title>
+        <v-card-title class="myheader2 papyrus text-xs-center">Interactive tutorial for Vrittaratnakara</v-card-title>
         <v-card-text>
           <p>Interactive self learning software for learning Sanskrit prosody, various types of meters used in poetry.</p>
           <hr class="my-3">
         </v-card-text>
         <v-card-actions>
           <v-dialog v-model="dialog" scrollable>
-          <v-btn slot="activator" round color="accent"> About Vrittaratnakara</v-btn>
+          <v-btn slot="activator" round color="accent" large> About <br> Vrittaratnakara</v-btn>
           <v-card color="info" class="papyrus" light>
             <v-card-title class="myheader papyrus">Vrittaratnakara</v-card-title>
             <v-divider></v-divider>
@@ -26,9 +27,9 @@ the most popular texts on Sanskrit prosody. Though there are many books on Sansk
           </v-card>
           </v-dialog>
           <v-spacer></v-spacer>
-          <v-btn round color="accent" nuxt to="/lessons">Learn</v-btn>
+          <v-btn round color="accent" nuxt to="/lessons" large>अध्यायाः<br>Learn</v-btn>
            <v-spacer></v-spacer>
-          <v-btn round color="accent" nuxt to="/exercises">Exercises</v-btn>
+          <v-btn round color="accent" nuxt to="/exercises" large>अभ्यासाः <br> Exercises</v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
