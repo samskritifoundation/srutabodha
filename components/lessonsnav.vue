@@ -274,7 +274,7 @@
                   },
                   {
                     title: 'Gatha',
-                    sl_num: 'VI'
+                    sl_num: 'iv'
                   }
                 ]
               },
@@ -285,19 +285,170 @@
                 divs: [
                   {
                     title: 'Arya',
-                    sl_num: 'i'
+                    sl_num: 'i',
+                    types: true,
+                    vrittas: [
+                      {
+                        title: 'Pathya',
+                        sl_num: 'I'
+                      },
+                      {
+                        title: 'Vipula',
+                        sl_num: 'II'
+                      },
+                      {
+                        title: 'Chapala',
+                        sl_num: 'III'
+                      }
+                    ]
                   },
                   {
                     title: 'Giti',
-                    sl_num: 'ii'
+                    sl_num: 'ii',
+                    types: true,
+                    vrittas: [
+                      {
+                        title: 'Upagiti',
+                        sl_num: 'I'
+                      },
+                      {
+                        title: 'Udgiti',
+                        sl_num: 'II'
+                      },
+                      {
+                        title: 'Aryagiti',
+                        sl_num: 'III'
+                      }
+                    ]
                   },
                   {
                     title: 'Vaitaliya',
-                    sl_num: 'iii'
+                    sl_num: 'iii',
+                    types: true,
+                    vrittas: [
+                      {
+                        title: 'Aupacchandasikam',
+                        sl_num: 'I'
+                      },
+                      {
+                        title: 'Apatalika',
+                        sl_num: 'II'
+                      },
+                      {
+                        title: 'Dakshinantika',
+                        sl_num: 'III'
+                      },
+                      {
+                        title: 'Udicyavritti',
+                        sl_num: 'IV'
+                      },
+                      {
+                        title: 'Prachyavritti',
+                        sl_num: 'V'
+                      },
+                      {
+                        title: 'Pravrittakam',
+                        sl_num: 'VI'
+                      },
+                      {
+                        title: 'Aparantika',
+                        sl_num: 'VII'
+                      },
+                      {
+                        title: 'Charuhasini',
+                        sl_num: 'VIII'
+                      }
+                    ]
                   },
                   {
                     title: 'Vaktram',
-                    sl_num: 'iv'
+                    sl_num: 'iv',
+                    types: true,
+                    vrittas: [
+                      {
+                        title: 'Pathyavaktram',
+                        sl_num: 'I'
+                      },
+                      {
+                        title: 'Viparītapathyāvaktram',
+                        sl_num: 'II'
+                      },
+                      {
+                        title: 'capalāvaktram',
+                        sl_num: 'III'
+                      },
+                      {
+                        title: 'yugmavipulā',
+                        sl_num: 'IV'
+                      },
+                      {
+                        title: 'bhavipulā',
+                        sl_num: 'V'
+                      },
+                      {
+                        title: 'ravipulā',
+                        sl_num: 'VI'
+                      },
+                      {
+                        title: 'navipulā',
+                        sl_num: 'VII'
+                      },
+                      {
+                        title: 'tavipulā',
+                        sl_num: 'VIII'
+                      }
+                    ]
+                  },
+                  {
+                    title: 'mātrāsamavṛtta',
+                    sl_num: 'v',
+                    types: true,
+                    vrittas: [
+                      {
+                        title: 'acaladhṛtivṛttam',
+                        sl_num: 'I'
+                      },
+                      {
+                        title: 'mātrāsamakam',
+                        sl_num: 'II'
+                      },
+                      {
+                        title: 'viślokavṛttam',
+                        sl_num: 'III'
+                      },
+                      {
+                        title: 'vānavāsikāvṛttam',
+                        sl_num: 'IV'
+                      },
+                      {
+                        title: 'citrāvṛttam',
+                        sl_num: 'V'
+                      },
+                      {
+                        title: 'upacitrāvṛttam',
+                        sl_num: 'VI'
+                      },
+                      {
+                        title: 'pādākulakavṛttam',
+                        sl_num: 'VII'
+                      }
+                    ]
+                  },
+                  {
+                    title: 'śikhāvṛttam',
+                    sl_num: 'vi'
+                  },
+                  {
+                    title: 'khañjāvṛttam',
+                    sl_num: 'vii'
+                  },
+                  {
+                    title: 'anaṅgakrīḍāvṛttam',
+                    sl_num: 'viii'
+                  },
+                  {
+                    title: 'rucirāvṛttam',
+                    sl_num: 'ix'
                   }
                 ]
               }
