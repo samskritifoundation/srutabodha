@@ -257,6 +257,10 @@
                       {
                         title: 'UtkrutiH',
                         sl_num: 'XXVI'
+                      },
+                      {
+                        title: 'Dandakam',
+                        sl_num: 'XXVII'
                       }
                     ]
                   },
@@ -267,6 +271,10 @@
                   {
                     title: 'Vishamam',
                     sl_num: 'iii'
+                  },
+                  {
+                    title: 'Gatha',
+                    sl_num: 'VI'
                   }
                 ]
               },
