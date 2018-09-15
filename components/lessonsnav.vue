@@ -266,11 +266,109 @@
                   },
                   {
                     title: 'Ardhasamam',
-                    sl_num: 'ii'
+                    sl_num: 'ii',
+                    types: 'true',
+                    vrittas: [
+                      {
+                        title: 'upacitram',
+                        sl_num: 'I'
+                      },
+                      {
+                        title: 'drutamadhyā',
+                        sl_num: 'II'
+                      },
+                      {
+                        title: 'vegavatī',
+                        sl_num: 'III'
+                      },
+                      {
+                        title: 'bhadravirāṭ',
+                        sl_num: 'IV'
+                      },
+                      {
+                        title: 'ketumatī',
+                        sl_num: 'V'
+                      },
+                      {
+                        title: 'ākhyānakī',
+                        sl_num: 'VI'
+                      },
+                      {
+                        title: 'viparītākhyānakī',
+                        sl_num: 'VII'
+                      },
+                      {
+                        title: 'hariṇaplutā',
+                        sl_num: 'VIII'
+                      },
+                      {
+                        title: 'aparavaktram',
+                        sl_num: 'IX'
+                      },
+                      {
+                        title: 'puṣpitāgrā',
+                        sl_num: 'X'
+                      },
+                      {
+                        title: 'yavamatī',
+                        sl_num: 'XI'
+                      },
+                      {
+                        title: 'viyoginī',
+                        sl_num: 'XII'
+                      }
+                    ]
                   },
                   {
                     title: 'Vishamam',
-                    sl_num: 'iii'
+                    sl_num: 'iii',
+                    types: 'true',
+                    vrittas: [
+                      {
+                        title: 'padacaturūrdhvam',
+                        sl_num: 'I'
+                      },
+                      {
+                        title: 'āpīḍam',
+                        sl_num: 'II'
+                      },
+                      {
+                        title: 'kalikā',
+                        sl_num: 'III'
+                      },
+                      {
+                        title: 'lavalī',
+                        sl_num: 'IV'
+                      },
+                      {
+                        title: 'amṛtadhārā',
+                        sl_num: 'V'
+                      },
+                      {
+                        title: 'udgatā',
+                        sl_num: 'VI'
+                      },
+                      {
+                        title: 'saurabhakam',
+                        sl_num: 'VII'
+                      },
+                      {
+                        title: 'lalitam',
+                        sl_num: 'VIII'
+                      },
+                      {
+                        title: 'upasthitapracupitam',
+                        sl_num: 'IX'
+                      },
+                      {
+                        title: 'vardhamānam',
+                        sl_num: 'X'
+                      },
+                      {
+                        title: 'śuddhavirāḍārṣabham',
+                        sl_num: 'XI'
+                      }
+                    ]
                   },
                   {
                     title: 'Gatha',
