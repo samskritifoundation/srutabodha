@@ -32,11 +32,11 @@
 
         <v-list-tile avatar tag="div">
           <v-list-tile-avatar>
-            <img src="https://randomuser.me/api/portraits/men/85.jpg">
+            <v-icon>library_books</v-icon>
           </v-list-tile-avatar>
 
           <v-list-tile-content>
-            <v-list-tile-title>John Leider</v-list-tile-title>
+            <v-list-tile-title>Lessons</v-list-tile-title>
           </v-list-tile-content>
 
           <v-list-tile-action>
@@ -50,19 +50,69 @@
       <v-list class="pt-0" dense>
         <v-divider light></v-divider>
 
-        <v-list-tile
-          v-for="item in items"
-          :key="item.title"
-          @click=""
-        >
-          <v-list-tile-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-tile-action>
+      <div v-for="item in items" :key="item.title">
+
+        <v-list-group v-if="item.group" value="true">
+
+          <v-list-tile slot="activator">
+            <v-list-tile-action>{{ item.sl_num }}.</v-list-tile-action>
+            <v-list-tile-title>{{item.title}}</v-list-tile-title>
+          </v-list-tile>
+
+          <div v-for="subitem in item.subitems" :key="subitem.title">
+
+          <v-list-group v-if="subitem.subgroup" sub-group>
+
+            <v-list-tile slot="activator" @click="">
+              <v-list-tile-action>{{subitem.sl_num}}</v-list-tile-action>
+              <v-list-tile-title>{{subitem.title}}</v-list-tile-title>
+            </v-list-tile>
+
+            <div v-for="div in subitem.divs" :key="div.title" @click="">
+
+              <v-list-group v-if="div.types" sub-group>
+
+                <v-list-tile slot="activator" @click="">
+                  <v-list-tile-action>{{div.sl_num}}</v-list-tile-action>
+                  <v-list-tile-title>{{div.title}}</v-list-tile-title>
+                </v-list-tile>
+
+                <v-list-tile v-for="vritta in div.vrittas" :key="vritta.title" @click="">
+              <v-list-tile-action>{{vritta.sl_num}}</v-list-tile-action>
+              <v-list-tile-title>{{vritta.title}}</v-list-tile-title>
+            </v-list-tile>
+
+              </v-list-group>
+
+            <v-list-tile v-else @click="">
+              <v-list-tile-action>{{div.sl_num}}</v-list-tile-action>
+              <v-list-tile-title>{{div.title}}</v-list-tile-title>
+            </v-list-tile>
+
+            </div>
+
+          </v-list-group>
+
+          <v-list-tile v-else @click="">
+            <v-list-tile-action>{{subitem.sl_num}}</v-list-tile-action>
+            <v-list-tile-title>{{subitem.title}}</v-list-tile-title>
+          </v-list-tile>
+
+          </div>
+
+        </v-list-group>
+
+        <v-list-tile v-else @click="">
+           <v-list-tile-action>{{ item.sl_num }}. </v-list-tile-action>
 
           <v-list-tile-content>
             <v-list-tile-title>{{ item.title }}</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
+
+        </div>
+
+         
       </v-list>
     </v-navigation-drawer>
   </v-layout>
@@ -74,8 +124,177 @@
       return {
         drawer: null,
         items: [
-          { title: 'Home', icon: 'dashboard' },
-          { title: 'About', icon: 'question_answer' }
+          {
+            title: 'Introduction',
+            sl_num: '1',
+            group: false
+          },
+          {
+            title: 'Identifying a Guru',
+            sl_num: '2',
+            group: false
+          },
+          {
+            title: 'Identifying a Laghu',
+            sl_num: '3',
+            group: false
+          },
+          {
+            title: 'Classification of Chandas',
+            sl_num: '4',
+            group: true,
+            subitems: [
+              {
+                title: 'Varna Chandas',
+                sl_num: '4.1',
+                subgroup: true,
+                divs: [
+                  {
+                    title: 'Samam',
+                    sl_num: 'i',
+                    types: 'true',
+                    vrittas: [
+                      {
+                        title: 'Ukta',
+                        sl_num: 'I'
+                      },
+                      {
+                        title: 'Atyukta',
+                        sl_num: 'II'
+                      },
+                      {
+                        title: 'Madhya',
+                        sl_num: 'III'
+                      },
+                      {
+                        title: 'Pratishta',
+                        sl_num: 'IV'
+                      },
+                      {
+                        title: 'Supratishta',
+                        sl_num: 'V'
+                      },
+                      {
+                        title: 'Gayatri',
+                        sl_num: 'VI'
+                      },
+                      {
+                        title: 'Ushnik',
+                        sl_num: 'VII'
+                      },
+                      {
+                        title: 'Anushtup',
+                        sl_num: 'VIII'
+                      },
+                      {
+                        title: 'Bruhati',
+                        sl_num: 'IX'
+                      },
+                      {
+                        title: 'Pankti',
+                        sl_num: 'X'
+                      },
+                      {
+                        title: 'Trishtup',
+                        sl_num: 'XI'
+                      },
+                      {
+                        title: 'Jagati',
+                        sl_num: 'XII'
+                      },
+                      {
+                        title: 'Atijagati',
+                        sl_num: 'XIII'
+                      },
+                      {
+                        title: 'Shakvari',
+                        sl_num: 'XIV'
+                      },
+                      {
+                        title: 'Atishakvari',
+                        sl_num: 'XV'
+                      },
+                      {
+                        title: 'AshtiH',
+                        sl_num: 'XVI'
+                      },
+                      {
+                        title: 'AtyashtiH',
+                        sl_num: 'XVII'
+                      },
+                      {
+                        title: 'DhrutiH',
+                        sl_num: 'XVIII'
+                      },
+                      {
+                        title: 'AtidhrutiH',
+                        sl_num: 'XIX'
+                      },
+                      {
+                        title: 'KrutiH',
+                        sl_num: 'XX'
+                      },
+                      {
+                        title: 'PrarutiH',
+                        sl_num: 'XXI'
+                      },
+                      {
+                        title: 'AkrutiH',
+                        sl_num: 'XXII'
+                      },
+                      {
+                        title: 'VikrutiH',
+                        sl_num: 'XXIII'
+                      },
+                      {
+                        title: 'SankrutiH',
+                        sl_num: 'XXIV'
+                      },
+                      {
+                        title: 'AtikrutiH',
+                        sl_num: 'XXV'
+                      },
+                      {
+                        title: 'UtkrutiH',
+                        sl_num: 'XXVI'
+                      }
+                    ]
+                  },
+                  {
+                    title: 'Ardhasamam',
+                    sl_num: 'ii'
+                  },
+                  {
+                    title: 'Vishamam',
+                    sl_num: 'iii'
+                  }
+                ]
+              },
+              {
+                title: 'Matra Chandas',
+                sl_num: '4.2',
+                subgroup: true,
+                divs: [
+                  {
+                    title: 'Arya',
+                    sl_num: 'i'
+                  },
+                  {
+                    title: 'Giti',
+                    sl_num: 'ii'
+                  },
+                  {
+                    title: 'Vaitaliya',
+                    sl_num: 'iii'
+                  },
+                  {
+                    title: 'Vaktram',
+                    sl_num: 'iv'
+                  }
+                ]
+              }
+            ]
+          }
         ],
         mini: false,
         right: null
