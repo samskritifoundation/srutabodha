@@ -54,7 +54,7 @@
 
         <v-list-group v-if="item.group" value="true">
 
-          <v-list-tile slot="activator">
+          <v-list-tile slot="activator" router :to="item.to">
             <v-list-tile-action>{{ item.sl_num }}.</v-list-tile-action>
             <v-list-tile-title>{{item.title}}</v-list-tile-title>
           </v-list-tile>
@@ -63,7 +63,7 @@
 
           <v-list-group v-if="subitem.subgroup" sub-group>
 
-            <v-list-tile slot="activator" @click="">
+            <v-list-tile slot="activator" router :to="subitem.to">
               <v-list-tile-action>{{subitem.sl_num}}</v-list-tile-action>
               <v-list-tile-title>{{subitem.title}}</v-list-tile-title>
             </v-list-tile>
@@ -72,19 +72,19 @@
 
               <v-list-group v-if="div.types" sub-group>
 
-                <v-list-tile slot="activator" @click="">
+                <v-list-tile slot="activator" router :to="div.to">
                   <v-list-tile-action>{{div.sl_num}}</v-list-tile-action>
                   <v-list-tile-title>{{div.title}}</v-list-tile-title>
                 </v-list-tile>
 
-                <v-list-tile v-for="vritta in div.vrittas" :key="vritta.title" @click="">
+                <v-list-tile v-for="vritta in div.vrittas" :key="vritta.title" router :to="vritta.to">
               <v-list-tile-action>{{vritta.sl_num}}</v-list-tile-action>
               <v-list-tile-title>{{vritta.title}}</v-list-tile-title>
             </v-list-tile>
 
               </v-list-group>
 
-            <v-list-tile v-else @click="">
+            <v-list-tile v-else router :to="div.to">
               <v-list-tile-action>{{div.sl_num}}</v-list-tile-action>
               <v-list-tile-title>{{div.title}}</v-list-tile-title>
             </v-list-tile>
@@ -93,7 +93,7 @@
 
           </v-list-group>
 
-          <v-list-tile v-else @click="">
+          <v-list-tile v-else router :to="subitem.to">
             <v-list-tile-action>{{subitem.sl_num}}</v-list-tile-action>
             <v-list-tile-title>{{subitem.title}}</v-list-tile-title>
           </v-list-tile>
@@ -102,7 +102,7 @@
 
         </v-list-group>
 
-        <v-list-tile v-else @click="">
+        <v-list-tile v-else router :to="item.to">
            <v-list-tile-action>{{ item.sl_num }}. </v-list-tile-action>
 
           <v-list-tile-content>
@@ -127,17 +127,20 @@
           {
             title: 'Introduction',
             sl_num: '1',
-            group: false
+            group: false,
+            to: '/'
           },
           {
             title: 'Identifying a Guru',
             sl_num: '2',
-            group: false
+            group: false,
+            to: '/'
           },
           {
             title: 'Identifying a Laghu',
             sl_num: '3',
-            group: false
+            group: false,
+            to: '/'
           },
           {
             title: 'Classification of Chandas',

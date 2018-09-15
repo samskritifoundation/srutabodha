@@ -1,6 +1,7 @@
 <template>
   <v-layout column justify-center align-center class="papyrus">
     <navleft />
+    <nuxt />
     <navright />
   </v-layout>
 </template>
