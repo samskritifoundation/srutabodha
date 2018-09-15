@@ -4,7 +4,7 @@
       :mini-variant.sync="miniVariant"
       :clipped="clipped"
       v-model="drawer"
-      color="accent"
+      class="info"
       fixed
       app
     >
