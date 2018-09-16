@@ -3,17 +3,16 @@
     wrap
     style="height: 200px;"
   >
-    <v-container>
-      <v-layout justify-center>
+
         <v-btn
-          color="pink"
-          dark
+          color="secondary"
+          dark 
+          round
           @click.stop="drawer = !drawer"
+          class="ma-4 font-weight-bold text-capitalize"
         >
-          Toggle
+          All Lessons
         </v-btn>
-      </v-layout>
-    </v-container>
 
     <v-navigation-drawer
       v-model="drawer"
