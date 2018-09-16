@@ -34,11 +34,9 @@
         </v-btn>
       <span>Home</span>
     </v-toolbar>
-    <v-content class = "oldmap">
+    <v-content class = "bg3">
             <navleft />
-        <v-layout>
         <nuxt />
-    </v-layout>
     </v-content>
     <v-footer :fixed="fixed" color="primary" dark app>
       <span>&copy; 2018</span>
@@ -74,8 +72,8 @@ export default {
 </script>
 
 <style scoped>
-.oldmap {
-  background: url("~/assets/img/oldmap.jpg") no-repeat;
+.bg3 {
+  background: url("~/assets/img/bg3.jpg") no-repeat;
   background-size: cover;
 }
 
