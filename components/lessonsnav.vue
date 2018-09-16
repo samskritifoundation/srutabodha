@@ -128,19 +128,19 @@
             title: 'Introduction',
             sl_num: '1',
             group: false,
-            to: '/'
+            to: '/lessons/1'
           },
           {
             title: 'Identifying a Guru',
             sl_num: '2',
             group: false,
-            to: '/'
+            to: '/lessons/2'
           },
           {
             title: 'Identifying a Laghu',
             sl_num: '3',
             group: false,
-            to: '/'
+            to: '/lessons/3'
           },
           {
             title: 'Classification of Chandas',
