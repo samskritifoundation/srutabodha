@@ -82,7 +82,7 @@
 
 <style scoped>
 .oldmap {
-  background: url("../assets/img/oldmap.jpg") no-repeat;
+  background: url("~/assets/img/oldmap.jpg") no-repeat;
   background-size: cover;
 }
 
