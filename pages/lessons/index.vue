@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import navleft from '../components/lessonsnav.vue'
-import navright from '../components/rightnav.vue'
+import navleft from '~/components/lessonsnav.vue'
+import navright from '~/components/rightnav.vue'
 
 export default {
   data: () => ({
