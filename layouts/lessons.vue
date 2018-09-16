@@ -35,19 +35,9 @@
       <span>Home</span>
     </v-toolbar>
     <v-content class = "oldmap">
-    <v-layout column>
-        <v-layout xs12 sm12 md12 row justify-space-between>
-        <v-flex>
             <navleft />
-            </v-flex>
-            <v-spacer></v-spacer>
-            <v-flex>
-            <navright />
-            </v-flex>
-        </v-layout>
-        <v-layout
+        <v-layout>
         <nuxt />
-    </v-layout>
     </v-layout>
     </v-content>
     <v-footer :fixed="fixed" color="primary" dark app>
