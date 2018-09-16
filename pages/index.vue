@@ -13,7 +13,7 @@
         </v-card-text>
         <v-card-actions>
           <v-dialog v-model="dialog" scrollable>
-          <v-btn slot="activator" round color="accent" class="font-weight-bold" large :ripple="{ class: 'error--text' }"> About <br> Vrittaratnakara</v-btn>
+          <v-btn slot="activator" round color="accent" class="text-capitalize font-weight-bold" large :ripple="{ class: 'error--text' }"> About <br> Vrittaratnakara</v-btn>
           <v-card color="info" class="papyrus bg1" light>
             <v-card-title class="myheader papyrus">Vrittaratnakara</v-card-title>
             <v-divider></v-divider>
@@ -27,9 +27,9 @@ the most popular texts on Sanskrit prosody. Though there are many books on Sansk
           </v-card>
           </v-dialog>
           <v-spacer></v-spacer>
-          <v-btn round color="accent" class="font-weight-bold" nuxt to="/lessons" large>अध्यायाः<br>Learn</v-btn>
+          <v-btn round color="accent" class="font-weight-bold text-capitalize" nuxt to="/lessons" large>अध्यायाः<br>Learn</v-btn>
            <v-spacer></v-spacer>
-          <v-btn round color="accent" class="font-weight-bold" nuxt to="/exercises" large>अभ्यासाः <br> Exercises</v-btn>
+          <v-btn round color="accent" class="font-weight-bold text-capitalize" nuxt to="/exercises" large>अभ्यासाः <br> Exercises</v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
