@@ -1,5 +1,8 @@
 
 module.exports = {
+  serverMiddleware: [
+    {path: '/api', handler: '~api/index.js'}
+  ],
   /*
   ** Headers of the page
   */
