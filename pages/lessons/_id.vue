@@ -1,5 +1,5 @@
 <template>
-<v-container>
+<v-container @click="getLessons">
 <v-card color="secondary" dark class="papyrus">
     <div class = "bordered">
     <v-card-title primary-title>
@@ -15,6 +15,8 @@
 </template>
 
 <script>
+import axios from '~/plugins/axios'
+
 export default {
   data () {
     return {
@@ -25,7 +27,13 @@ export default {
       }
     }
   },
-  layout: 'lessons'
+  layout: 'lessons',
+  methods: {
+    getLessons () {
+      // console.log($route.name)
+      console.log(axios.get('api'))
+    }
+  }
 }
 </script>
 
