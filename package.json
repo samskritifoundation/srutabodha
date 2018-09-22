@@ -11,9 +11,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "@nuxtjs/axios": "^5.3.1",
     "dgram": "^1.0.1",
     "dns": "^0.2.2",
+    "express": "^4.16.3",
     "fs": "0.0.1-security",
     "module": "^1.2.5",
     "mongodb": "^3.1.6",
