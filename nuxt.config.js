@@ -1,7 +1,10 @@
 
 module.exports = {
   serverMiddleware: [
-    {path: '/api', handler: '~api/index.js'}
+    '~api/index.js'
+  ],
+  modules: [
+    ['@nuxtjs/axios', {baseURL: '/api'}]
   ],
   /*
   ** Headers of the page
@@ -21,13 +24,17 @@ module.exports = {
   },
   plugins: ['~/plugins/vuetify.js'],
   css: [
-    '~/assets/style/app.styl'
+    '~/assets/style/app.styl' 
   ],
   /*
   ** Customize the progress bar color
   */
-  //loading: { color: '#3B8070' },
-  loading: '~/components/loading.vue',
+  loading: { color: '#3B8070' },
+  loadingIndicator: {
+    name: 'folding-cube',
+    color: 'white',
+    background: '#3B8070'
+  },
   /*
   ** Build configuration
   */
