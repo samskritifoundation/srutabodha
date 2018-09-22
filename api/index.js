@@ -1,16 +1,22 @@
-// require module
-var connect = require('connect')
+const express = require('express')
 
-// create app
-var app = connect()
+const app = express()
 
-module.exports = function (req, res, next) {
-    // req is the Node.js http request object
-    console.log('url = ' + req.url)
+app.use(express.json())
 
-    // res is the Node.js http response object
+app.get('/', (req, res, next) => {
+    res.json(req.params)
+})
+/*
+let MongoClient = require('mongodb').MongoClient;
 
-    // next is a function to call to invoke the next middleware
-    // Don't forget to call next at the end if your middleware is not an endpoint!
-    next()
+let uri = "mongodb://root-user:ramanuja108@cluster0-shard-00-00-8wiwi.mongodb.net:27017,cluster0-shard-00-01-8wiwi.mongodb.net:27017,cluster0-shard-00-02-8wiwi.mongodb.net:27017/chandas?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true";
+MongoClient.connect(uri, function(err, db) {
+    if(err) console.log(err);
+   db.close();
+});
+*/
+module.exports = {
+    path: '/lessons/:id',
+    handler: app
 }
