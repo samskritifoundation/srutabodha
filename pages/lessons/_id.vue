@@ -1,12 +1,18 @@
 <template>
 <v-container class="mt-0 pt-0">
-<v-card color="accent lighten-4" class="papyrus mt-0 pt-0 bordered">
+<v-card color="accent lighten-4" class="mt-0 pt-0 bordered">
     <v-card-title primary-title>
-        <h3 class="papyrus myheader">{{lesson.id}}. {{lesson.title}}</h3>
+        <h3 class="papyrus myheader">{{lesson.id}}. <span class="devanagari">{{lesson.title_sans}}</span> <br>{{lesson.title_eng}}</h3>
         </v-card-title>
-        <v-card-text>
-            <div class="devanagari">{{lesson.definition_sans}}</div>
-            <div class="myheader3" v-html=lesson.definition_eng></div>
+        <v-card-text class="myheader3">
+          <v-layout row>
+            <v-flex xs6>
+            <div class="devanagari" v-html=lesson.definition_sans></div>
+            </v-flex>
+            <v-flex xs6>
+            <div class="font-weight-bold" v-html=lesson.definition_eng></div>
+            </v-flex>
+          </v-layout>
         </v-card-text>
   </v-card>
 </v-container>
@@ -16,13 +22,7 @@
 export default {
   data () {
     return {
-      lesson: {
-        title: 'Introduction',
-        id: this.$route.params.id,
-        definition_sans: 'lorem ipsum',
-        definition_eng: '<p>Sanskrit prosody or Chandas refers to one of the six Vedangas, or limbs of Vedic studies. It is the study of poetic metres and verse in Sanskrit.</p><p>Almost all Sanskrit poetry is based on following a certain meter, or arrangement of syllables. The Chandas or the metre is an essential element of versified poetry. Rigorous description of the form of the poems helps to preserve their shape over time. This description evolved into the formal study of meter. Both meter and the study of meter are called chandas.</p>',
-        example_sans: ''
-      }
+      lesson: this.$store.state.lessons[this.$route.params.id - 1]
     }
   },
   layout: 'lessons',

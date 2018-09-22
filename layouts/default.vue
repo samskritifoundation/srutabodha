@@ -88,5 +88,5 @@
 
 .text-light {
   color: white;
-}
+} 
 </style>
