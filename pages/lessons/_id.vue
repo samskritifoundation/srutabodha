@@ -29,7 +29,7 @@ export default {
     return {
       lesson: this.$store.state.lessons[this.$route.params.id - 1],
       previous: this.$route.params.id <= 1 ? '#' : '/lessons/' + (this.$route.params.id - 1),
-      next: this.$route.params.id < 20 ? '/lessons/' + (Number(this.$route.params.id) + 1) : '#'
+      next: this.$route.params.id < 3 ? '/lessons/' + (Number(this.$route.params.id) + 1) : '#'
     }
   },
   layout: 'lessons',
