@@ -2,8 +2,8 @@ export const state = () => ({
   sidebar: false,
   lessons: [
     {
-      title_sans: 'छन्दःशास्त्रः',
-      title_eng: 'Introduction',
+      title_sans: 'छन्दःशास्त्रः - भूमिका',
+      title_eng: 'Introduction to Sanskrit Prosody',
       id: 1,
       definition_sans: 'lorem ipsum',
       definition_eng: '<p>Sanskrit prosody or Chandas refers to one of the six Vedangas, or limbs of Vedic studies. It is the study of poetic metres and verse in Sanskrit.</p><p>Almost all Sanskrit poetry is based on following a certain meter, or arrangement of syllables. The Chandas or the metre is an essential element of versified poetry. Rigorous description of the form of the poems helps to preserve their shape over time. This description evolved into the formal study of meter. Both meter and the study of meter are called chandas.</p><p>A poetical stanza or verse in Sanskrit is called <em>padya</em>. Generally a <em>padya</em> or verse contains four <em>pādas</em> or quarters or metrical lines. Sanskrit verses are classified into groups and sub-groups according to: <ol type="a"><li>the number of syllables or syllabic instants they contain in each quarter and </li><li>the position or placement of short or long syllables within the verse</li></ol></p><p>Such groups and sub-groups are called <em>chandas</em></p>',
