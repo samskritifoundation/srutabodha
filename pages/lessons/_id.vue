@@ -1,5 +1,10 @@
 <template>
 <v-container class="mt-0 pt-0">
+  <v-layout row class="neg_margin">
+  <v-btn color="accent darken-2" :ripple="{ class: 'error--text' }"  :to=previous><b>Previous</b></v-btn>
+  <v-spacer></v-spacer>
+  <v-btn color="accent darken-2" :ripple="{ class: 'error--text' }" :to=next><b>Next</b></v-btn>
+  </v-layout>
 <v-card color="accent lighten-4" class="mt-0 pt-0 bordered">
     <v-card-title primary-title>
         <h3 class="papyrus myheader">{{lesson.id}}. <span class="devanagari">{{lesson.title_sans}}</span> <br>{{lesson.title_eng}}</h3>
@@ -22,7 +27,9 @@
 export default {
   data () {
     return {
-      lesson: this.$store.state.lessons[this.$route.params.id - 1]
+      lesson: this.$store.state.lessons[this.$route.params.id - 1],
+      previous: this.$route.params.id <= 1 ? '#' : '/lessons/' + (this.$route.params.id - 1),
+      next: this.$route.params.id < 20 ? '/lessons/' + (Number(this.$route.params.id) + 1) : '#'
     }
   },
   layout: 'lessons',
@@ -44,4 +51,7 @@ export default {
     padding: 2%;
 }
 
+.neg_margin {
+  margin-top: -10%;
+}
 </style>
