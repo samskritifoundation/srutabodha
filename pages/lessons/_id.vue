@@ -29,7 +29,7 @@ export default {
   layout: 'lessons',
   created () {
     // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
-    // console.log(this.id)
+    // console.log(this. id)
     this.lesson = this.$store.state.lessons.find(lesson => String(lesson.id) === this.id)
     // console.log(this.$store.state.lessons)
     // console.log(this.$axios.$get('/lessons/' + this.$route.params.id))
