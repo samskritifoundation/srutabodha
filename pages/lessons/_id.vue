@@ -22,13 +22,17 @@
 export default {
   data () {
     return {
-      lesson: this.$store.state.lessons[this.$route.params.id - 1]
+      id: String(this.$route.params.id),
+      lesson: ''
     }
   },
   layout: 'lessons',
   created () {
-    // console.log(this.$route.params.id)
-    console.log(this.$axios.$get('/lessons/' + this.$route.params.id))
+    // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
+    // console.log(this.id)
+    this.lesson = this.$store.state.lessons.find(lesson => String(lesson.id) === this.id)
+    // console.log(this.$store.state.lessons)
+    // console.log(this.$axios.$get('/lessons/' + this.$route.params.id))
   }
 }
 </script>
