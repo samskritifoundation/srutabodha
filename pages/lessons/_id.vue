@@ -13,6 +13,7 @@
             <div class="font-weight-bold" v-html=lesson.definition_eng></div>
             </v-flex>
           </v-layout>
+          <v-layout v-html=lesson.common></v-layout>
         </v-card-text>
   </v-card>
 </v-container>
