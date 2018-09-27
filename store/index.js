@@ -26,7 +26,7 @@ export const state = () => ({
       example_sans: ''
     },
     {
-      title_sans: 'छन्दविभागाः',
+      title_sans: 'छन्दोविभागाः',
       title_eng: 'Classification of Chandas',
       id: 4,
       definition_sans: '',
