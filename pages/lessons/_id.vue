@@ -30,8 +30,12 @@ export default {
     return {
       id: String(this.$route.params.id),
       lesson: '',
-      previous: this.$route.params.id <= 1 ? '#' : '/lessons/' + (this.$route.params.id - 1),
-      next: this.$route.params.id < 3 ? '/lessons/' + (Number(this.$route.params.id) + 1) : '#'
+      index: '',
+      prev_lesson: '',
+      next_lesson: '',
+      length: '',
+      previous: '/',
+      next: '/'
     }
   },
   layout: 'lessons',
@@ -39,6 +43,15 @@ export default {
     // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
     // console.log(this. id)
     this.lesson = this.$store.state.lessons.find(lesson => String(lesson.id) === this.id)
+    this.index = this.$store.state.lessons.findIndex(lesson => String(lesson.id) === this.id)
+    this.prev_lesson = this.$store.state.lessons[this.index - 1]
+    this.next_lesson = this.$store.state.lessons[this.index + 1]
+    this.length = this.$store.state.lessons.length
+    this.previous = this.index > 1 ? '/lessons/' + (this.prev_lesson.id) : '/lessons/1'
+    this.next = this.index <= this.length ? '/lessons/' + (this.next_lesson.id) : '/lessons/4.2.ix'
+    console.log(this.index)
+    console.log(this.prev_lesson)
+    console.log(this.next_lesson.id)
     // console.log(this.$store.state.lessons)
     // console.log(this.$axios.$get('/lessons/' + this.$route.params.id))
   }
