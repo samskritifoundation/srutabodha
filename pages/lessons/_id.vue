@@ -9,15 +9,47 @@
     <v-card-title primary-title>
         <h3 class="papyrus myheader">{{lesson.id}}. <span class="devanagari">{{lesson.title_sans}}</span> <br>{{lesson.title_eng}}</h3>
         </v-card-title>
-        <v-card-text class="myheader3">
+      <div v-if="lesson.types" class="myheader3">
+    <v-tabs
+      v-model="active"
+      color="accent"
+      dark
+      slider-color="yellow"
+    >
+      <v-tab
+        v-for="n in lesson.types"
+        :key="n"
+        ripple
+        class="font-weight-bold"
+      >
+        Vritta Type - {{ n }}
+
+      </v-tab>
+      <v-tab-item
+        v-for="n in lesson.type"
+        :key="n"
+      >
+        <v-card flat>
+          <v-card-text class="devanagari" v-html="n.text_sans"></v-card-text>
+        </v-card>
+      </v-tab-item>
+    </v-tabs>
+
+    <div class="text-xs-center mt-3">
+      <v-btn @click="nexttab">next tab</v-btn>
+    </div>
+  </div>
+
+        <v-card-text v-else class="myheader3">
           <v-layout row>
             <v-flex xs6>
-            <div class="devanagari" v-html=lesson.definition_sans></div>
+            <div class="devanagari px-1" v-html=lesson.definition_sans></div>
             </v-flex>
             <v-flex xs6>
-            <div class="font-weight-bold" v-html=lesson.definition_eng></div>
+            <div class="font-weight-bold px-1" v-html=lesson.definition_eng></div>
             </v-flex>
           </v-layout>
+          <v-layout v-html=lesson.common></v-layout>
         </v-card-text>
   </v-card>
 </v-container>
@@ -27,15 +59,41 @@
 export default {
   data () {
     return {
-      lesson: this.$store.state.lessons[this.$route.params.id - 1],
-      previous: this.$route.params.id <= 1 ? '#' : '/lessons/' + (this.$route.params.id - 1),
-      next: this.$route.params.id < 3 ? '/lessons/' + (Number(this.$route.params.id) + 1) : '#'
+      active: null,
+      id: String(this.$route.params.id),
+      lesson: '',
+      index: '',
+      prev_lesson: '',
+      next_lesson: '',
+      length: '',
+      previous: '/',
+      next: '/'
     }
   },
   layout: 'lessons',
+  mounted () {
+    console.log(this.id)
+    this.lesson = this.$store.state.lessons.find(less => String(less.id) === this.id)
+  },
   created () {
-    // console.log(this.$route.params.id)
-    console.log(this.$axios.$get('/lessons/' + this.$route.params.id))
+    // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
+    this.index = this.$store.state.lessons.findIndex(lesson => String(lesson.id) === this.id)
+    this.prev_lesson = this.$store.state.lessons[this.index - 1]
+    this.next_lesson = this.$store.state.lessons[this.index + 1]
+    this.length = this.$store.state.lessons.length
+    this.previous = this.index > 1 ? '/lessons/' + (this.prev_lesson.id) : '/lessons/1'
+    this.next = this.index < this.length ? '/lessons/' + (this.next_lesson.id) : '/lessons/4.2.ix'
+    console.log(this.index)
+    // console.log(this.prev_lesson)
+    console.log(this.next_lesson.id)
+    // console.log(this.$store.state.lessons)
+    // console.log(this.$axios.$get('/lessons/' + this.$route.params.id))
+  },
+  methods: {
+    nexttab () {
+      const active = parseInt(this.active)
+      this.active = (active < this.lesson.types - 1 ? active + 1 : 0)
+    }
   }
 }
 </script>
@@ -51,7 +109,7 @@ export default {
     padding: 2%;
 }
 
-.neg_margin {
+ .neg_margin {
   margin-top: -10%;
 }
 </style>
