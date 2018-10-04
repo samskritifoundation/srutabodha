@@ -33,7 +33,7 @@
         ripple
         class="font-weight-bold"
       >
-        Vritta Type - {{ n }}
+        Vritta - {{ n }}
 
       </v-tab>
       <v-tab-item

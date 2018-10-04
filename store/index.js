@@ -106,31 +106,53 @@ export const state = () => ({
           text_sans: '<h3>i. तनुमध्या Tanumadhya</h3><p>त्यौ स्तस्तनुमध्या - तगण-यगणौ यदि पादे भवतस्तदा तनुमध्या नाम वृत्तं भवति ।</p><p>This metre contains six syllables of one <em>ta</em> group and one <em>ya</em> group in each quarter.</p><p>So, here the 1st, 2nd, 5th and 6th syllables of each quarter are long and the 3rd and the 4th short.</p><table><tr><td> &nbsp; &nbsp; त &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  य &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  त &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  य</td><td> &nbsp; &nbsp; त &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  य &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  त &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  य</td></tr><tr><td>ऽ ऽ । । ऽ ऽ &nbsp; ऽ ऽ  &nbsp; । । ऽ  &nbsp; ऽ</td><td> ऽ ऽ । । ऽ ऽ  &nbsp; ऽ ऽ  । । ऽ ऽ</td></tr><tr><td>तेन प्रविभक्ता कामं वयसा सा । </td><td> येन प्रविलासं धत्ते तनुमध्या ॥</td></tr></table>'
         },
         {
-          text_sans: '<h3>ii. शशिवदना Shashivadana</h3><p>यदि पादे नगण-यगणौ भवतस्तदा शशिवदना नाम वृत्तं भवति ।</p><table><tr><td> &nbsp; &nbsp; न  &nbsp; &nbsp;  &nbsp;  &nbsp; य &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; न   &nbsp;  &nbsp;  &nbsp; य</td></tr><tr><td> &nbsp; | &nbsp; |  | | ऽ ऽ &nbsp; | | | | ऽ ऽ</td></tr><tr><td>शशिवदनानां व्रजतरुणीनाम् ।</td></tr><tr><td>अधरसुधोमिं मधुरिपुरैच्छत् ॥</td></tr></table>'
+          text_sans: '<h3>ii. शशिवदना Shashivadana</h3><p>यदि पादे नगण-यगणौ भवतस्तदा शशिवदना नाम वृत्तं भवति ।</p><p>This metre contains 6 syllables of one <em>na</em> group and one <em>ya</em> group in each quarter.</p><p>So, here the 1st, 2nd, 3rd and 4th syllables of each quarter are short and the last two long.</p><table><tr><td> &nbsp; &nbsp; न  &nbsp; &nbsp;  &nbsp;  &nbsp; य &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; न   &nbsp;  &nbsp;  &nbsp; य</td></tr><tr><td> &nbsp; | &nbsp; |  | | ऽ ऽ &nbsp; | | | | ऽ ऽ</td></tr><tr><td>शशिवदनानां व्रजतरुणीनाम् ।</td></tr><tr><td>अधरसुधोमिं मधुरिपुरैच्छत् ॥</td></tr></table>'
         },
         {
-          text_sans: '<h3>iii. विद्युल्लेखा Vidyullekha</h3><p>यदि पादे मगणौ स्तस्तदा विद्युल्लेखा नाम वृत्तं भवति । </p><table><tbody><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; म&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; म</td><td>&nbsp; &nbsp; &nbsp; &nbsp; म&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; म</td></tr><tr><td>&nbsp; ऽ ऽ ऽ&nbsp; ऽ&nbsp; &nbsp; ऽ ऽ</td><td  style="width: 383.333px;">&nbsp; ऽ ऽ&nbsp; &nbsp; ऽ&nbsp; ऽ&nbsp; ऽ&nbsp; ऽ</td></tr><tr><td>गोपस्त्रीणां मुख्या । </td><td>विद्युल्लेखा रूपा ॥</td></tr><tr><td>कालिन्दी तीरे सा ।</td><td> रेमे श्रीकृष्णेन ॥</td></tr></tbody></table>'
+          text_sans: '<h3>iii. विद्युल्लेखा Vidyullekha</h3><p>यदि पादे मगणौ स्तस्तदा विद्युल्लेखा नाम वृत्तं भवति । </p><p>This metre has 6 syllables made up of two <em>ma</em> groups in each quarter.</p><p>So, here all the six syllables of each quarter are long. There should be a pause after the 3rd and the last syllables of each quarter.</p><table><tbody><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; म&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; म</td><td>&nbsp; &nbsp; &nbsp; &nbsp; म&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; म</td></tr><tr><td>&nbsp; ऽ ऽ ऽ&nbsp; ऽ&nbsp; &nbsp; ऽ ऽ</td><td  style="width: 383.333px;">&nbsp; ऽ ऽ&nbsp; &nbsp; ऽ&nbsp; ऽ&nbsp; ऽ&nbsp; ऽ</td></tr><tr><td>गोपस्त्रीणां मुख्या । </td><td>विद्युल्लेखा रूपा ॥</td></tr><tr><td>कालिन्दी तीरे सा ।</td><td> रेमे श्रीकृष्णेन ॥</td></tr></tbody></table>'
         },
         {
-          text_sans: '<h3>iv. वसुमती Vasumati</h3><p>तगण-सगणौ चेत् पादः तदा वसुमती नाम वृत्तम् ।</p><table><tbody><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; त&nbsp; &nbsp; &nbsp; स</td><td>&nbsp; &nbsp; त&nbsp; &nbsp; &nbsp; स</td></tr><tr><td  style="width: 117.867px;">&nbsp; ऽ ऽ ।। । ऽ</td><td  style="width: 614.333px;">&nbsp; ऽऽ ।। । ऽ</td></tr><tr><td>राजीवनयना, </td><td>नूनं वसुमती ।</td></tr><tr><td>रामा भवति </td><td> सा नूनं वसुमती ॥</td></tr></tbody></table>'
+          text_sans: '<h3>iv. वसुमती Vasumati</h3><p>तगण-सगणौ चेत् पादः तदा वसुमती नाम वृत्तम् ।</p><p>This metre has 6 syllables of one <em>ta</em> group and one <em>sa</em> group in each quarter.</p><table><tbody><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; त&nbsp; &nbsp; &nbsp; स</td><td>&nbsp; &nbsp; त&nbsp; &nbsp; &nbsp; स</td></tr><tr><td  style="width: 117.867px;">&nbsp; ऽ ऽ ।। । ऽ</td><td  style="width: 614.333px;">&nbsp; ऽऽ ।। । ऽ</td></tr><tr><td>राजीवनयना, </td><td>नूनं वसुमती ।</td></tr><tr><td>रामा भवति </td><td> सा नूनं वसुमती ॥</td></tr></tbody></table>'
         }
       ],
       definition_sans: '<p>सर्वेषु पादेषु पादान्ते यतिः ।</p>',
       definition_eng: ''
     },
     {
-      title_sans: '',
+      title_sans: 'उष्णिक्',
       title_eng: 'Ushnik',
       id: '4.1.i.VII',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<h3>मदलेखा</h3><p>मगण सगण गुरुभिः मदलेखा नाम वृत्तं भवति ।</p>',
+      definition_eng: '<h3>Madalekha</h3><p>This metre has seven syllables of one <em>ma</em> group, one <em>sa</em> group and one <em>ga</em> group in each quarter.</p><p>So here the 4th and 5th syllables of each quarter are short and the others long.</p><p>There should be a pause after the 3rd and the last syllables of each quarter.</p>',
+      common: '<table><tbody><tr><td>&nbsp; &nbsp; &nbsp; त&nbsp; &nbsp; &nbsp; &nbsp; स</td><td>&nbsp; &nbsp; &nbsp; &nbsp; त &nbsp; &nbsp; &nbsp; &nbsp; स</td></tr><tr><td>ऽ ऽ&nbsp; ऽ। । ऽ&nbsp; ऽ</td><td  style="width: 614.333px;">&nbsp; ऽ ऽ&nbsp; &nbsp; ऽ ।।&nbsp; ऽ&nbsp; ऽ</td></tr><tr><td>रङ्गे बाहुविरुग्णात्,&nbsp; </td><td>दन्तीन्द्रान्मदलेखा ॥</td></tr><tr><td>लग्नाभून्मुरशत्रौ</td><td> कस्तूरी रसचर्चा ॥</td></tr></tbody></table>'
     },
     {
-      title_sans: '',
+      title_sans: 'अनुष्टुप्',
       title_eng: 'Anushtup',
       id: '4.1.i.VIII',
       definition_sans: '',
-      definition_eng: ''
+      definition_eng: 'This metre allows great freedom in use of long and short syllables. However, in its usual form, the fifth syllable of each quarter should be short, the sixth long and the seventh alternatively long and short. There being no fixed rule for the other syllables.',
+      types: 6,
+      type: [
+        {
+          text_sans: '<h3>चित्रपदा</h3><p>भगणौ गुरू च यत्र पादे सा चित्रपदा भवति ।</p><p>This metre has 8 syllables of two <em>bha</em> and two <em>ga</em> groups in each quarter. So here the 1st, 4th, 7th and 8th syllables of each quarter are long and the others short.<table><tbody><tr><td>&nbsp; &nbsp; भ&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; भ&nbsp; &nbsp; &nbsp; &nbsp; गु गु</td><td>&nbsp; &nbsp; &nbsp; भ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; भ&nbsp; &nbsp; गु गु</td></tr><tr><td>ऽ &nbsp; । &nbsp; । ऽ&nbsp; &nbsp; । । ऽ&nbsp; ऽ</td><td>&nbsp; ऽ । ।&nbsp; &nbsp; ऽ&nbsp; &nbsp; । । ऽ&nbsp; ऽ</td></tr><tr><td>यस्य मुखे प्रियवाणी, </td><td>चेतसि सज्जनता च ।</td></tr><tr><td>चित्रपदाऽपि च लक्ष्मीः</td><td>तं पुरुषं न जहाति ॥</td></tr></tbody></table>'
+        },
+        {
+          text_sans: '<h3>विद्युन्माला</h3><p>यदि पादे मगणौ द्वौ गुरू च भवतस्तदा विद्युन्माला नाम वृत्तं चतुर्भिच्चतुर्भिश्च यतिः ।</p><p>This metre has 8 syllables of two <em>ma</em> and two <em>ga</em> groups in each quarter. So, here all the syllables of each quarter are long</p><table><tbody><tr><td>&nbsp; &nbsp; भ&nbsp; &nbsp; &nbsp; &nbsp; भ&nbsp; &nbsp; &nbsp; गु गु</td><td>&nbsp; &nbsp; &nbsp; भ&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; भ&nbsp; &nbsp; गु गु</td></tr><tr><td>ऽ ऽ &nbsp; ऽ ऽ&nbsp; ऽ ऽ ऽ&nbsp; ऽ</td><td>&nbsp; ऽऽ&nbsp; &nbsp; ऽ ऽ &nbsp; &nbsp; ऽ ऽ&nbsp; ऽ ऽ&nbsp; </td></tr><tr><td>मौनं ध्यानं भूमौ शय्या, </td><td>गुर्वी तस्याः कामावस्था ।</td></tr><tr><td>मेघोत्सङ्गे नृत्तासङ्गा, </td><td>यस्मिन्काले विद्युन्माला ॥</td></tr></tbody></table>'
+        },
+        {
+          text_sans: '<h3>माणवकम्</h3><p>भाद् गणात् तगण लघुगुरवो यदि तदा माणवकम् </p><p>This is an eight-syllabled metre containing syllables of one <em>Bha</em> group, one <em>ta</em> group, one <em>la</em> group and one <em>ga</em> group in each quarter.</p><p>So here the 1st, 4th, 5th and 8th syllables of each quarter are long and the others short. There should be a pause after the 4th and the last syllables of each quarter.</p><table><tbody><tr><td>&nbsp; &nbsp; भ&nbsp; &nbsp; &nbsp; &nbsp; त&nbsp; &nbsp; ल गु</td><td>&nbsp; &nbsp; &nbsp; भ &nbsp; &nbsp; &nbsp; &nbsp; त&nbsp; &nbsp; ल गु</td></tr><tr><td>&nbsp;ऽ । । ऽ&nbsp; ऽ&nbsp; । । ऽ </td><td>&nbsp; ऽ&nbsp; । । ऽ&nbsp; &nbsp; ऽ। ।&nbsp; ऽ </td></tr><tr><td>माणवकाक्रीडितकं</td><td>&nbsp;यः कुरुते वृद्धवयाः ।</td></tr><tr><td>हास्यमसौ याति जने,</td><td>भिक्षुरिव स्त्रीचपलः ॥</td></tr></tbody></table>'
+        },
+        {
+          text_sans: '<h3>हंसरुतम्</h3><p>मगण-नगणौ गुरू च द्वौ</p><p>This eight-syllabled metre contains one <em>ma</em> group, one <em>na</em> group and two <em>ga</em> groups.</p><table><tbody><tr><td>&nbsp; &nbsp; &nbsp; &nbsp; म &nbsp; &nbsp; &nbsp; &nbsp; न &nbsp; &nbsp; &nbsp; गु गु</td><td>&nbsp; &nbsp; म&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; न &nbsp; &nbsp; &nbsp; &nbsp; गु गु</td></tr><tr><td>&nbsp; ऽ&nbsp; ऽ&nbsp; ऽ ।&nbsp; ।&nbsp; ।&nbsp; ऽ&nbsp; ऽ&nbsp; &nbsp; </td><td>ऽ ऽ ऽ।&nbsp; ।&nbsp; ।&nbsp; ऽ ऽ&nbsp; </td></tr><tr><td>अभ्यागामिशशिलक्ष्मी, </td> <td>मञ्जीरक्वणिततुल्यम् ।</td></tr><tr><td>तीरे राजति नदीनां, </td><td>रम्यं हंसरुतमेतत् ॥</td></tr></tbody></table>'
+        },
+        {
+          text_sans: '<h3>समानिका</h3><p>यदि पादे रगण-जगणौ गुरु-लघू च भवन्ति तदा समानिका नाम वृत्तं भवति ।</p><p> समानी एव समानिका</p><p>This metre has eight syllables of one <em>ga</em> group, one <em>la</em> group, one <em>ra</em> group</p> and one <em>ja</em> group in each quarter. </p><p>So here the 1st, 3rd, 5th and 7th syllables of each quarter are long and the others short. There should be a pause after the 4th and the 8th syllables of each quarter.</p>'
+        },
+        {
+          text_sans: '<h3>प्रमाणिका</h3><p>जगण-रगणौ लघुगुरू च प्रमाणिका ।</p><p> प्रमाणी एव प्रमाणिका</p><p>This metre has 8 syllables of one <em>ja</em> group, one <em>ra</em> group, one <em>la</em> group and one <em>ga</em> group in each quarter.</p><p>So here the 1st, 3rd, 5th and 7th syllables of each quarter are short and the others long. Places of pause are like Samanika.</p>'
+        }
+      ]
     },
     {
       title_sans: '',
