@@ -9,6 +9,17 @@
     <v-card-title primary-title>
         <h3 class="papyrus myheader">{{lesson.id}}. <span class="devanagari">{{lesson.title_sans}}</span> <br>{{lesson.title_eng}}</h3>
         </v-card-title>
+
+      <v-layout row class="myheader3">
+            <v-flex xs6>
+            <div class="devanagari px-1" v-html=lesson.definition_sans></div>
+            </v-flex>
+            <v-flex xs6>
+            <div class="font-weight-bold px-1" v-html=lesson.definition_eng></div>
+            </v-flex>
+          </v-layout>
+          <v-layout class="myheader3" v-html=lesson.common></v-layout>
+
       <div v-if="lesson.types" class="myheader3">
     <v-tabs
       v-model="active"
@@ -39,18 +50,6 @@
       <v-btn @click="nexttab">next tab</v-btn>
     </div>
   </div>
-
-        <v-card-text v-else class="myheader3">
-          <v-layout row>
-            <v-flex xs6>
-            <div class="devanagari px-1" v-html=lesson.definition_sans></div>
-            </v-flex>
-            <v-flex xs6>
-            <div class="font-weight-bold px-1" v-html=lesson.definition_eng></div>
-            </v-flex>
-          </v-layout>
-          <v-layout v-html=lesson.common></v-layout>
-        </v-card-text>
   </v-card>
 </v-container>
 </template>
