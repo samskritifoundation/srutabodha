@@ -19,6 +19,7 @@
             </v-flex>
           </v-layout>
           <v-layout class="myheader3" v-html=lesson.common></v-layout>
+          <img :src='lesson.example_img' width="100%" />
 
       <div v-if="lesson.types" class="myheader3">
     <v-tabs
@@ -42,6 +43,7 @@
       >
         <v-card flat>
           <v-card-text class="devanagari" v-html="n.text_sans"></v-card-text>
+          <v-img :src='n.ex_img' width="100%"></v-img>
         </v-card>
       </v-tab-item>
     </v-tabs>

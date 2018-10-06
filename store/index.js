@@ -510,186 +510,223 @@ export const state = () => ({
       definition_eng: ''
     },
     {
-      title_sans: '',
+      title_sans: 'आर्या',
       title_eng: 'Arya',
       id: '4.2.i',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'पूर्वार्धः – <ul><li>३० मात्राः</li><li> सप्तगणाः भवन्ति अन्ते गुरुः</li><li>प्रथमे पादे द्वादश द्वितीये पादे अष्टादश अक्षराः</li><li>विषमे (प्रथमतृतीयपञ्चमसप्तम) स्थाने जगणः न भवति ।</li><li>षष्ठे गणे जगणो भवति अथवा चत्वारो लघवो भवन्ति ।</li></ul>उत्तरार्धे <ul><li> २७ मात्राः</li><li>सप्तगणाः भवन्ति अन्ते गुरुः</li><li>तृतीयपादे द्वादश अक्षराः </li></li>चतुर्थपादे पञ्चदश अक्षराः</li><li>षष्ठस्थाने गणे एको लघुः भवति ।</li></ul>यतिनियमम् – <ul><li>षष्ठस्थाने चतुर्लघौ गणे कृते सति द्वितीयलघोः पूर्वं प्रथम लघ्वनन्तरं यतियुक्तं पदं नियमेन समाप्यते । </li><li>सप्तमस्थाने  चतुर्लघो कृते सति प्रथम लघोः पूर्वमेव षष्ठगणानन्तरं सयति पद नियमो भवति । </li><li>उत्तरार्धे पञ्चमस्थाने चतुर्लघौ गणे सति प्रथमलघोः पूर्वं चतुर्थं गणान्ते सयति पदं नियम्यते ।</li></ul>',
+      definition_eng: '<p>Āryā meter is a meter used in Sanskrit and Prakrit verses. A verse in āryā metre is in four metrical feet called pādas. Unlike the majority of meters employed in classical Sanskrit, the āryā meter is based on the number of mātrās (morae) per pāda. A syllable containing a short vowel counts for one mātrā, and a syllable containing a long vowel or a short vowel followed by two consonants counts for two mātrās. </p><p>The basic āryā verse has 12, 18, 12 and 15 mātrās in the first, second, third, and fourth pādas respectively. </p><p>Odd numbered mātrā-gaṇas should not be ja-gaṇa.</p><p>Sixth gaṇa should be ja-gaṇa.</p>',
+      example_img: '/arya.png'
     },
     {
-      title_sans: '',
+      title_sans: 'पथ्या',
       title_eng: 'Pathya',
       id: '4.2.i.I',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'यस्याम् आर्यायां द्वादशमात्रात्मको प्रथमतृतीयौ पादौ भवतः सा पथ्याभिधीयते',
+      definition_eng: '',
+      example_img: '/pathya.png'
     },
     {
-      title_sans: '',
+      title_sans: 'विपुला',
       title_eng: 'Vipula',
       id: '4.2.i.II',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'यस्याः आर्यायाः पूर्वार्धोत्तरार्धयोः व्यस्तयोः समस्तयोर्वा आदिमं प्रारम्भस्थितं गणत्रयं संलङ्घ्य लंघयित्वा पादो भवति, ताम् आर्यां विपुलामिति कथयति',
+      definition_eng: '',
+      example_img: '/vipula.png'
     },
     {
-      title_sans: '',
+      title_sans: 'चपला',
       title_eng: 'Chapala',
       id: '4.2.i.III',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'यस्याः आर्यायाः पूर्वार्धे उत्तरार्धे च द्वितीयचतुर्थौ  गणौ मध्यगुरुसम्पन्नौ जगणौ भवतः तस्याः चपला इति नाम कथितम् ।',
+      definition_eng: '',
+      example_img: '/capala.png',
+      types: 2,
+      type: [
+        {
+          text_sans: '<h3>मुखचपला</h3><p>यस्याः आर्यायाः पूर्वार्धं चपलानिष्ठं लक्षणं धारयेत, उत्तरार्धे आर्यायाः सामान्यभवं लक्षणं यस्याः सा आर्या मुखचपला कथिता ।</p>',
+          ex_img: '/mukhacapala.png'
+        },
+        {
+          text_sans: '<h3>जघनचपला</h3><p>यस्याः आर्यायाः प्रथमे अर्धे आर्यायाः सामान्यलक्षणं भवति तथा उत्तरार्धे चपलायाः लक्षणम् आश्रयेत सा जघनचपला ।</p>',
+          ex_img: '/jaghanacapala.png'
+        }
+      ]
     },
     {
-      title_sans: '',
+      title_sans: 'गीतिः',
       title_eng: 'Giti',
       id: '4.2.ii',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<p>पूर्वोत्तरार्धयोः आर्यापूर्वार्धगतं लक्षणं भवेत् सा गीतिः </p><p>उभयपादाः त्रिंशन्मात्राः पूर्वोत्तरपादौ सप्तगणाःअन्ते गुरुः</p><p>प्रथमे पादे द्वादश मात्राः</p><p>द्वितीये पादे अष्टादश मात्राः</p><p>विषमे (प्रथमतृतीयपञ्चमसप्तम) स्थाने जगणः न भवति ।</p> <p>षष्ठे गणे जगणो भवति अथवा चत्वारो लघवो भवन्ति ।</p>यतिनियमम् – <p>षष्ठस्थाने चतुर्लघौ गणे कृते सति द्वितीयलघोः पूर्वं प्रथम लघ्वनन्तरं यतियुक्तं पदं नियमेन समाप्यते । </p><p>सप्तमस्थाने  चतुर्लघो कृते सति प्रथम लघोः पूर्वमेव षष्ठगणानन्तरं सयति पद नियमो भवति ।</p>',
+      definition_eng: 'The gīti meter has 12, 18, 12 and 18 mātrās in its four pādas respectively.',
+      example_img: '/giti.png'
     },
     {
-      title_sans: '',
+      title_sans: 'उपगीतिः',
       title_eng: 'Upagiti',
       id: '4.2.ii.I',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<p>आर्यायाः उत्तरार्धे यत् लक्षणं  भवति तत् लक्षणं यदि उभयोरपि अर्धयोः स्यात् तां उपगीतिं कथयति ।</p><p>उत्तरार्धे – </p><ul><li>२७ मात्राः</li><li>सप्तगणाः भवन्ति अन्ते गुरुः</li><li>तृतीयपादे द्वादश अक्षराः </li><li>चतुर्थपादे पञ्चदश अक्षराः</li><li>षष्ठस्थाने गणे एको लघुः भवति ।</li><li>सप्तगणाः भवन्ति अन्ते गुरुः</li></ul>',
+      definition_eng: 'The upagīti meter has 12, 15, 12 and 15 mātrās in its four pādas respectively.',
+      example_img: '/upagiti.png'
     },
     {
-      title_sans: '',
+      title_sans: 'उद्गीतिः',
       title_eng: 'Udgiti',
       id: '4.2.ii.II',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<p>आर्यायाः पूर्वार्धं यस्या उत्तरार्धं भवेत्, आर्याया उत्तरार्धं च यस्याः पूर्वार्धं भवेत् सा उद्गीतिः ।</p>',
+      definition_eng: 'The udgīti meter has 12, 15, 12 and 18 mātrās in its four pādas respectively.',
+      example_img: '/udgiti.png'
     },
     {
-      title_sans: '',
+      title_sans: 'आर्यागीतिः',
       title_eng: 'Aryagiti',
       id: '4.2.ii.III',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<p>यदि आर्यापूर्वार्धम् अवसाने एकेन अधिकेन गुरुणा युक्तं भवेत्, इतरत् द्वितीयं यदीयम् उत्तरार्धं पूर्वार्धवत् भवति सा आर्यागीतिः कथिता ।</p><p>आर्यागीत्यां तु पूर्वार्धे उत्तरार्धे उभयोरपि पूर्णा अष्टौ गणा भवन्ति । </p><p>उभयदलयोः ३२ मात्राः सन्ति ।</p>',
+      definition_eng: 'The āryāgīti meter has 12, 20, 12 and 20 mātrās in its four pādas respectively.',
+      example_img: '/aryagiti.png'
     },
     {
-      title_sans: '',
+      title_sans: 'वैतालीयछन्दस्',
       title_eng: 'Vaitaliya',
       id: '4.2.iii',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>वैतालीये छन्दसि प्रथमे तृतीये च पादे षड् मात्राः भवन्ति तथा द्वितीये चतुर्थे च पादे अष्टौ मात्राः भवन्ति </li><li>उक्तानां कलानाम् अन्ते रगणश्च लघुश्च गुरुश्च भवन्ति </li><li>आद्यानां कलानां निवेशने नियमम् – <ul><li>समे पादे ताः षट्कलाः निरन्तराः लघवः नो स्युः ताः गुरुमिश्रिताः भवन्ति । </li><li>विषमे पादे यथेच्छं कर्तव्याः । </li></ul> </li><li>आद्यासु षट् मात्रासु विषमे पादे तथा अष्टसु मात्रासु समपादे द्वितीया चतुर्थी षष्ठी च कलाः </li> <li>तृतीयपञ्जमसप्तम्या मिलिताः न  भवन्ति । </li><li>पूर्वाश्रिता भवितुमर्हन्ति न तु पराश्रिताः । </li><li>प्रथमतृतीयपादे १४ कलाः भवन्ति </li><li>द्वितीयचतुर्थपादे १६ कलाः भवन्ति </li></ul>',
+      definition_eng: '',
+      example_img: '/vaitaliya.png'
     },
     {
-      title_sans: '',
+      title_sans: 'औपच्छन्दसिकम्',
       title_eng: 'Aupacchandasikam',
       id: '4.2.iii.I',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>विषमपादयोः षण्णामन्ते तथा समपादयोः अष्टानां मात्राणाम् अन्ते यो रगणयगणौ भवतः शेषं तथैव वैतालीयवत् यदि स्यात् तदा औपच्छन्दसिकं नाम छन्दः कथितम् । </li><li>वैतालीयच्छन्दसि अन्ते यदि एको गुरुरधिको भवति तदा औपच्छन्दसिकं नाम छन्दः । </li><li>समे १८ मात्राः</li><li>विषमे १६ मात्राः</li></ul>',
+      definition_eng: '',
+      example_img: '/oupachandasikam.png'
     },
     {
-      title_sans: '',
+      title_sans: 'आपातलिका',
       title_eng: 'Apatalika',
       id: '4.2.iii.II',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'षण्णाम् अष्ठानां कलानाम् अन्ते भगणाद् द्वौ गुरू भवतः अन्यत् सर्वं वैतालीयवत् स्यात् आपातलिका कथिता ।',
+      definition_eng: '',
+      example_img: '/apatatilaka.png'
     },
     {
-      title_sans: '',
+      title_sans: 'दक्षिणान्तिका',
       title_eng: 'Dakshinantika',
       id: '4.2.iii.III',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>चतुर्षु चरणेषु द्वितीया मात्रा तृतीयया संयुक्ता भवति चेत् तदा दक्षिणान्तिका नाम भवति । </li><li>वैतालीये यदा द्वितीया कला दीर्घा भवति तदा दक्षिणान्तिका छन्दो नामेति भावः ।</li></ul>',
+      definition_eng: '',
+      example_img: '/dakshinantika.png'
     },
     {
-      title_sans: '',
+      title_sans: 'उदीच्यवृत्तिः',
       title_eng: 'Udicyavritti',
       id: '4.2.iii.IV',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>यदा विषमयोः पादयोः द्वितीया मात्रा तृतीयया सह युक्तो भवति तदा उदीच्यवृत्तिर्नाम छन्दो भवति । </li><li>द्वितीया मात्रा प्रथम-तृतीयपादयोः दीर्घा भवति, अन्यत् सर्वं वैतालीयवत् ।</li></ul>',
+      definition_eng: '',
+      example_img: '/udicyavritti.png'
     },
     {
-      title_sans: '',
+      title_sans: 'प्राच्यवृत्तिः',
       title_eng: 'Prachyavritti',
       id: '4.2.iii.V',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>समपादयोः पञ्चमो कालः चतुर्थेन लघुना युतो यदि भवति तदा प्राच्यवृत्तिः इति कथ्यते । </li><li>अत्र चतुर्थपञ्चममात्रे एकेन गुरुणा उपात्ते भवतः, अन्यत् सर्वं वैतालीयवत् भवति ।</li></ul>',
+      definition_eng: '',
+      example_img: '/pracyavritti.png'
     },
     {
-      title_sans: '',
+      title_sans: 'प्रवृत्तकम्',
       title_eng: 'Pravrittakam',
       id: '4.2.iii.VI',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>विषमपादे द्वितीयतृतीयमात्रायोगो भवति</li><li>समपादे  चतुर्थपञ्जममात्रासंयोगो भवति</li><li>अन्यत् सर्वं वैतालीयवत् ।</li></ul>',
+      definition_eng: '',
+      example_img: '/pravruttakam.png'
     },
     {
-      title_sans: '',
+      title_sans: 'अपरान्तिका',
       title_eng: 'Aparantika',
       id: '4.2.iii.VII',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'यत्र चतुर्ष्वपि चरणेषु चतुर्थपञ्चममात्रयोः संयोगो दृश्यते तथा सर्वत्र षोडशमात्रता च जायते तदा अपरान्तिका नाम छन्दः',
+      definition_eng: '',
+      example_img: '/aparantika.png'
     },
     {
-      title_sans: '',
+      title_sans: 'चारुहासिनी',
       title_eng: 'Charuhasini',
       id: '4.2.iii.VIII',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'सर्वेषु पादेषु –<ul><li>चतुर्दशमात्राः सन्ति</li><li>द्वितीयतृतीयमात्रयोः संयोगश्च भवति </li></ul>',
+      definition_eng: '',
+      example_img: '/caruhasini.png'
     },
     {
-      title_sans: '',
+      title_sans: 'वक्त्रम्',
       title_eng: 'Vaktram',
       id: '4.2.iv',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>प्रथमाक्षरात् ऊर्ध्वं नगण-सगणौ न स्याताम्, मगणादुषु कोऽपि यथेच्छं स्यात् ।</li><li>चतुर्थाक्षरात् परतः यगणः स्यात् </li><li>समपादयोः प्रथमाक्षरात् पञ्चात् रगणोऽपि न भवति</li></ul>',
+      definition_eng: '',
+      example_img: '/vaktram.png'
     },
     {
-      title_sans: '',
+      title_sans: 'पथ्यावक्त्रम्',
       title_eng: 'Pathyavaktram',
       id: '4.2.iv.I',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'द्वितीय-चतुर्थपादयोः चतुर्थाक्षरात् परतः जगणेन युक्तं पथ्यावक्त्रं नाम वृत्तं प्रकीर्तितम् । ',
+      definition_eng: '',
+      example_img: '/pathyavaktram.png'
     },
     {
-      title_sans: '',
+      title_sans: 'विपरीतपथ्यावक्त्रम्',
       title_eng: 'Viparītapathyāvaktram',
       id: '4.2.iv.II',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'प्रथम-तृतीयपादयोः चतुराक्षरात् परतः जगणेन युक्ता स्यात् तदा विपरीतपथ्यावक्त्रम् । ',
+      definition_eng: '',
+      example_img: '/viparitapathya.png'
     },
     {
-      title_sans: '',
+      title_sans: 'चपलावक्त्रम्',
       title_eng: 'capalāvaktram',
       id: '4.2.iv.III',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'प्रथम-तृतीयपादयोः चतुराक्षरात् परतः यदि नगणः स्यात् तदा चपलावक्त्रं नाम वृत्तं भवति',
+      definition_eng: '',
+      example_img: '/capalavaktram.png'
     },
     {
-      title_sans: '',
+      title_sans: 'युग्मविपुला',
       title_eng: 'yugmavipulā',
       id: '4.2.iv.IV',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>द्वितीय-चतुर्थपादयोः सप्तमः वर्णः लघुसंज्ञकः स्यात् सा युग्मविपुला कथिता ।</li><li>विशेषः – यद्यपि पथ्यानामके वृत्तेऽपि द्वितीयचतुर्थपादयोः सप्तमो वर्णो लघु भवति, तथापि तत्र जगणस्य प्राधान्यम्, अत्र तु प्राधान्ये सप्तमवर्णस्य लघुत्वं भवति ।</li><li>सैतवमुनेः मते चतुर्षु पादेषु सप्तमो वर्णो लघु भवति ।</li></ul>',
+      definition_eng: '',
+      example_img: '/yugmavipula.png'
     },
     {
-      title_sans: '',
+      title_sans: 'भविपुला',
       title_eng: 'bhavipulā',
       id: '4.2.iv.V',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>चतुर्थाक्षरात् भगणेन संयुता चेत् तदा भविपुला भवति ।</li><li>केचन पण्डिताः सर्वेषु पादेषु स्वीकुर्वन्ति, केचित् तु विषमपादविषयेयमिति स्वीकुर्वन्ति ।</li></ul>',
+      definition_eng: '',
+      example_img: '/bhavipula.png'
     },
     {
-      title_sans: '',
+      title_sans: 'रविपुला',
       title_eng: 'ravipulā',
       id: '4.2.iv.VI',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'चतुर्थाक्षरात् रगणेन संयुता चेत् तदा रविपुला भवति ।',
+      definition_eng: '',
+      example_img: '/ravipula.png'
     },
     {
-      title_sans: '',
+      title_sans: 'नविपुला',
       title_eng: 'navipulā',
       id: '4.2.iv.VII',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'चतुर्थाक्षरात् परतः नगणेन संयुता चेत् तदा नविपुला भवति ।',
+      definition_eng: '',
+      example_img: '/navipula.png'
     },
     {
-      title_sans: '',
+      title_sans: 'तविपुला',
       title_eng: 'tavipulā',
       id: '4.2.iv.VIII',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'चतुर्थाक्षरात् परतः तगणेन संयुता चेत् तदा तविपुला भवति ।',
+      definition_eng: '',
+      example_img: '/tavipula.png'
     },
     {
       title_sans: '',
@@ -699,81 +736,92 @@ export const state = () => ({
       definition_eng: ''
     },
     {
-      title_sans: '',
+      title_sans: 'अचलधृतिवृत्तम्',
       title_eng: 'acaladhṛtivṛttam',
       id: '4.2.v.I',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>षोढशलघवः वर्णाः यत्र सा अचलधृतिः ।</li><li>इमाम् अचलधृतिं पिङ्गलमुनिः गीत्यार्या नाम जातिभेदं स्वीकरोति ।</li></ul>',
+      definition_eng: '',
+      example_img: '/acaladhrti.png'
     },
     {
-      title_sans: '',
+      title_sans: 'मात्रासमकम्',
       title_eng: 'mātrāsamakam',
       id: '4.2.v.II',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>यस्य श्लोकस्य पादे नवमः लघुः अन्तिमं (१६) गुरुः च स्यात् तद्व्रुत्तं मात्रासमकम् इत्युच्यते </li><li>षोढशमात्राः भवन्ति</li></ul>',
+      definition_eng: '',
+      example_img: '/matrasamaka.png'
     },
     {
-      title_sans: '',
+      title_sans: 'विश्लोकवृत्तम्',
       title_eng: 'viślokavṛttam',
       id: '4.2.v.III',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>चतुष्कलातः पश्चात् जगणो यत्र भवति अथवा चतुर्लघुरूपो वा यत्र गणः तद् विश्लोकम् </li></li>षोढशमात्राः भवन्ति</li></ul>',
+      definition_eng: '',
+      example_img: '/visloka.png'
     },
     {
-      title_sans: '',
+      title_sans: 'वानवासिकावृत्तम्',
       title_eng: 'vānavāsikāvṛttam',
       id: '4.2.v.IV',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'अष्टमात्रानन्तरं यदि जगणः चत्वारो लघुवर्णाः वा स्युः तदा वानवासिका वृत्तम् ।',
+      definition_eng: '',
+      example_img: '/vanavasika.PNG'
     },
     {
-      title_sans: '',
+      title_sans: 'चित्रा वृत्तम्',
       title_eng: 'citrāvṛttam',
       id: '4.2.v.V',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'पञ्च, अष्टौ नव एतेषु यदि लघुः वर्णः स्यात् तदा चित्रा नाम वृत्तम् ',
+      definition_eng: '',
+      example_img: '/citra.png'
     },
     {
-      title_sans: '',
+      title_sans: 'उपचित्रावृत्तम्',
       title_eng: 'upacitrāvṛttam',
       id: '4.2.v.VI',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>नवमे मात्रास्वरूपे दशमेन मात्रास्वरूपेण युक्ते सति उपचित्रा नाम मात्रासमकं वृत्तं भवति </li><br>अथवा<br><li>यस्मिन् छन्दसि अष्टाभ्यो मात्राभ्यः परतः भगणाद् द्वौ गुरुवर्णौ भवतः तद्वृत्तम् उपचित्रा नामकं भवति</li></ul>',
+      definition_eng: '',
+      example_img: '/upacitra.PNG'
     },
     {
-      title_sans: '',
+      title_sans: 'पादाकुलकवृत्तम्',
       title_eng: 'pādākulakavṛttam',
       id: '4.2.v.VII',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'पादचतुष्टयेऽपि भिन्नभिन्नमात्रासमकवृत्तानां लक्षणैः समन्वितं, किन्तु षोढशमात्राभिर्युक्तं यद् वृत्तं तद् पादाकुलकम् ।',
+      definition_eng: '',
+      example_img: '/padakulaka.JPG'
     },
     {
-      title_sans: '',
+      title_sans: 'शिखावृत्तम्',
       title_eng: 'śikhāvṛttam',
       id: '4.2.vi',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>उभयदले – <ul><li>प्रथमपादे अष्टाविंशतिलघवः अन्ते एकश्च गुरुः</li><li>द्वितीयपादे ३० लघुयुक्तं अन्त्यगुरुः भवति </li></ul><li>कविप्रतिभोत्पादिता सचेतसां </li><li>चेतसश्चमत्कारकारिणी पदानां विस्तारो यत्र सा शिखा कथ्यते ।</li></ul>',
+      definition_eng: '',
+      example_img: '/shikha.png'
     },
     {
-      title_sans: '',
+      title_sans: 'खञ्जावृत्तम्',
       title_eng: 'khañjāvṛttam',
       id: '4.2.vii',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>इदं वृत्तं शिखावृत्तस्य सर्वथा विपरीतं वर्तते ।</li><li>उभयदले – <ul><li>प्रथमपादे ३० लघुयुक्तं अन्त्यगुरुः भवति </li><li>द्वितीयपादे अष्टाविंशतिलघवः अन्ते एकश्च गुरुः</li></ul></ul>',
+      definition_eng: '',
+      example_img: '/khanja.png'
     },
     {
-      title_sans: '',
+      title_sans: 'अनङ्गक्रीडावृत्तम्',
       title_eng: 'anaṅgakrīḍāvṛttam',
       id: '4.2.viii',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'यस्य वृत्तस्य पूर्वार्धे षोढश गुरवः उत्तरार्धे ३२ लघवः स्युः सा अनङ्गक्रीडा ',
+      definition_eng: '',
+      example_img: '/anangakrida.png'
     },
     {
-      title_sans: '',
+      title_sans: 'रुचिरावृत्तम्',
       title_eng: 'rucirāvṛttam',
       id: '4.2.ix',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: '<ul><li>२७ लघवो अवसाने गुरुः</li><li>अस्याः  अपरं नाम ’चलिका’ इति पिङ्गलसम्मतम् </li></ul>',
+      definition_eng: '',
+      example_img: '/ruciravruttam.png'
     }
   ]
 })
