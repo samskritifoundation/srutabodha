@@ -22,6 +22,9 @@
           <img :src='lesson.example_img' width="100%" />
 
       <div v-if="lesson.types" class="myheader3">
+        <div class="text-xs-center mt-3">
+      <v-btn @click="nexttab">next tab</v-btn>
+    </div>
     <v-tabs
       v-model="active"
       color="accent"
@@ -34,7 +37,7 @@
         ripple
         class="font-weight-bold"
       >
-        Vritta - {{ n }}
+        {{ n }}
 
       </v-tab>
       <v-tab-item
@@ -48,9 +51,6 @@
       </v-tab-item>
     </v-tabs>
 
-    <div class="text-xs-center mt-3">
-      <v-btn @click="nexttab">next tab</v-btn>
-    </div>
   </div>
   </v-card>
 </v-container>
