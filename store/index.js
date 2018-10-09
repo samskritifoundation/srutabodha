@@ -31,7 +31,9 @@ export const state = () => ({
       id: 4,
       definition_sans: '',
       definition_eng: '',
-      common: 'Varna<br>Matra'
+      treeData: {
+        name: 'Types of Chandas'
+      }
     },
     {
       title_sans: 'वर्णछन्दः',

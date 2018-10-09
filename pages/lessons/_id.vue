@@ -51,13 +51,19 @@
       </v-tab-item>
     </v-tabs>
 
+    <!-- <TreeChart :json="treeData" /> -->
+
   </div>
   </v-card>
 </v-container>
 </template>
 
 <script>
+// import TreeChart from "vue-tree-chart";
 export default {
+  components: {
+    // TreeChart
+  },
   data () {
     return {
       active: null,
@@ -68,13 +74,15 @@ export default {
       next_lesson: '',
       length: '',
       previous: '/',
-      next: '/'
+      next: '/',
+      treeData: ''
     }
   },
   layout: 'lessons',
   mounted () {
-    console.log(this.id)
+    // console.log(this.id)
     this.lesson = this.$store.state.lessons.find(less => String(less.id) === this.id)
+    this.treeData = this.lesson.tree
   },
   created () {
     // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
