@@ -309,7 +309,7 @@ export const state = () => ({
       definition_eng: ''
     },
     {
-      title_eng: 'The End',
+      title_eng: ' ',
       id: 44,
       common: '<a href="/">Home</a>'
     }

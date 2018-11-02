@@ -154,238 +154,232 @@
             to: '/lessons/5'
           },
           {
-            title: 'Gīti',
+            title: 'Upagīti',
             sl_num: '6',
             group: false,
             to: '/lessons/6'
           },
           {
-            title: 'Gīti',
+            title: 'Pankti',
             sl_num: '7',
             group: false,
             to: '/lessons/7'
           },
           {
-            title: 'Gīti',
+            title: 'śaśivadanā',
             sl_num: '8',
             group: false,
             to: '/lessons/8'
           },
           {
-            title: 'Gīti',
+            title: 'Madalekhā',
             sl_num: '9',
             group: false,
             to: '/lessons/9'
           },
           {
-            title: 'Gīti',
+            title: 'Padyam',
             sl_num: '10',
             group: false,
             to: '/lessons/10'
           },
           {
-            title: 'Gīti',
+            title: 'Māṇavakam',
             sl_num: '11',
             group: false,
             to: '/lessons/11'
           },
           {
-            title: 'Gīti',
+            title: 'Nāgasvarupiṇi',
             sl_num: '12',
             group: false,
             to: '/lessons/12'
           },
           {
-            title: 'Gīti',
+            title: 'Vidyunmālā',
             sl_num: '13',
             group: false,
             to: '/lessons/13'
           },
           {
-            title: 'Gīti',
+            title: 'Campakamālā',
             sl_num: '14',
             group: false,
             to: '/lessons/14'
           },
           {
-            title: 'Gīti',
+            title: 'Maṇibandha',
             sl_num: '15',
             group: false,
             to: '/lessons/15'
           },
           {
-            title: 'Gīti',
+            title: 'śālinī',
             sl_num: '16',
             group: false,
             to: '/lessons/16'
           },
           {
-            title: 'Gīti',
+            title: 'Mandākrāntā',
             sl_num: '17',
             group: false,
             to: '/lessons/17'
           },
           {
-            title: 'Gīti',
+            title: 'Hamsī',
             sl_num: '18',
             group: false,
             to: '/lessons/18'
           },
           {
-            title: 'Gīti',
+            title: 'Dodhakavṛttam',
             sl_num: '19',
             group: false,
             to: '/lessons/19'
           },
           {
-            title: 'Gīti',
+            title: 'Indravajrā',
             sl_num: '20',
             group: false,
             to: '/lessons/20'
           },
           {
-            title: 'Gīti',
+            title: 'Upendravajrā',
             sl_num: '21',
             group: false,
             to: '/lessons/21'
           },
           {
-            title: 'Gīti',
+            title: 'Upajāti',
             sl_num: '22',
             group: false,
             to: '/lessons/22'
           },
           {
-            title: 'Gīti',
+            title: 'ākhyānaki',
             sl_num: '23',
             group: false,
             to: '/lessons/23'
           },
           {
-            title: 'Gīti',
+            title: 'Rathodhatā',
             sl_num: '24',
             group: false,
             to: '/lessons/24'
           },
           {
-            title: 'Gīti',
+            title: 'Svāgatā',
             sl_num: '25',
             group: false,
             to: '/lessons/25'
           },
           {
-            title: 'Gīti',
+            title: 'Vaiśvadevī',
             sl_num: '26',
             group: false,
             to: '/lessons/26'
           },
           {
-            title: 'Gīti',
+            title: 'Totakam',
             sl_num: '27',
             group: false,
             to: '/lessons/27'
           },
           {
-            title: 'Gīti',
+            title: 'Bhujangaprāyatam',
             sl_num: '28',
             group: false,
             to: '/lessons/28'
           },
           {
-            title: 'Gīti',
+            title: 'Drutavilambitā',
             sl_num: '29',
             group: false,
             to: '/lessons/29'
           },
           {
-            title: 'Gīti',
+            title: 'Pramitākṣarā',
             sl_num: '30',
             group: false,
             to: '/lessons/30'
           },
           {
-            title: 'Gīti',
+            title: 'Hariṇīplutā',
             sl_num: '31',
             group: false,
             to: '/lessons/31'
           },
           {
-            title: 'Gīti',
+            title: 'Vamśastham',
             sl_num: '32',
             group: false,
             to: '/lessons/32'
           },
           {
-            title: 'Gīti',
+            title: 'Indravamśā',
             sl_num: '33',
             group: false,
             to: '/lessons/33'
           },
           {
-            title: 'Gīti',
+            title: 'Prabhāvatī',
             sl_num: '34',
             group: false,
             to: '/lessons/34'
           },
           {
-            title: 'Gīti',
+            title: 'Praharṣiṇī',
             sl_num: '35',
             group: false,
             to: '/lessons/35'
           },
           {
-            title: 'Gīti',
+            title: 'Vasantatilakā',
             sl_num: '36',
             group: false,
             to: '/lessons/36'
           },
           {
-            title: 'Gīti',
+            title: 'Mālinī',
             sl_num: '37',
             group: false,
             to: '/lessons/37'
           },
           {
-            title: 'Gīti',
+            title: 'Hariṇī',
             sl_num: '38',
             group: false,
             to: '/lessons/38'
           },
           {
-            title: 'Gīti',
+            title: 'śikhariṇī',
             sl_num: '39',
             group: false,
             to: '/lessons/39'
           },
           {
-            title: 'Gīti',
+            title: 'Pṛthvī',
             sl_num: '40',
             group: false,
             to: '/lessons/40'
           },
           {
-            title: 'Gīti',
+            title: 'Mandākrānta',
             sl_num: '41',
             group: false,
             to: '/lessons/41'
           },
           {
-            title: 'Gīti',
+            title: 'śārdūlavikrīḍitam',
             sl_num: '42',
             group: false,
             to: '/lessons/42'
           },
           {
-            title: 'Gīti',
+            title: 'Sragdharā',
             sl_num: '43',
             group: false,
             to: '/lessons/43'
-          },
-          {
-            title: 'Gīti',
-            sl_num: '44',
-            group: false,
-            to: '/'
           }
         ],
         mini: false,
