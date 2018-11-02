@@ -318,72 +318,72 @@ export const state = () => ({
     {
       id: '1',
       title: 'Level 1 - लघु & गुरु',
-      question: 'Identify the short syllable:',
-      options: ['क', 'क्ष', 'त्र', 'अः'],
-      ans: 'क'
+      question: 'A long vowel (दीर्घं) has how many Mātrās?',
+      options: ['1', '2', '3', '4'],
+      ans: '2'
     },
     {
       id: '2',
-      title: 'Level 1 - लघु & गुरु',
-      question: 'Pick the odd one out:',
-      options: ['टम्', 'क्ष', 'ज्ञ', 'र'],
-      ans: 'र'
+      title: 'Level 2 - गणाः',
+      question: 'आदिलघु: ___',
+      options: ['मगणः', 'यगणः', 'सगणः', 'तगणः'],
+      ans: 'यगणः'
     },
     {
       id: '3',
       title: 'Level 2 - गणाः',
-      question: 'Number of syllabic instants in one Gaṇa of Mātrā Chandas',
-      options: ['1', '4', '2', '8'],
-      ans: '4'
+      question: 'सर्वगुरुः ___',
+      options: ['मगणः', 'नगणः', 'सगणः', 'तगणः'],
+      ans: 'मगणः'
     },
     {
       id: '4',
-      title: 'Level 2 - गणाः',
-      question: 'Which  Gaṇa in Varṇa chandas contains all short syllables?',
-      options: ['मगण', 'ल', 'नगण', 'जगण'],
-      ans: 'नगण'
+      title: 'Level 3 - Identify the metre',
+      question: 'आर्योत्तरार्धतुल्यं प्रथमार्धमपि चेत् सा ___',
+      options: ['उपगीतिः', 'रुचिरावृत्तम्', 'शिखावृत्तम्', 'वैतालीयछन्दस्'],
+      ans: 'उपगीतिः'
     },
     {
       id: '5',
       title: 'Level 3 - Identify the metre',
-      question: 'This metre which contains 11 syllables in each quarter has long syllables in its 1st, 2nd, 4th, 5th, 8th, 10th and 11th syllables of each quarter.',
-      options: ['Indravajrā', 'Upendravajrā', 'Pankti', 'Candravartma'],
-      ans: 'Indravajrā'
+      question: 'यदि चतुर्थं पञ्चमं लघु स्यात् सा ___ प्रोक्ता',
+      options: ['रुचिरावृत्तम्', 'मदलेखा', 'शशिवदना', 'पङ्क्तिः'],
+      ans: 'मदलेखा'
     },
     {
       id: '6',
       title: 'Level 3 - Identify the metre',
-      question: 'The metre which contains 30 syllables in each quarter is:',
-      options: ['Anuṣṭup', 'Āryā ', 'kṣamā', 'Rucirā'],
-      ans: 'Āryā '
+      question: 'Name the metre which is also known as Pramāṇikā',
+      options: ['Anuṣṭup', 'Āryā ', 'Nāgasvarupiṇi', 'Rucirā'],
+      ans: 'Nāgasvarupiṇi'
     },
     {
       id: '7',
-      title: 'Level 3 - Identify the meter:',
-      question: '<br>सौम्यां दृष्टि देहि स्नेहा हे हेऽस्माकं मानं मुक्त्वा<br>शशधरमुखिमुखमपनय मम हृदि मनसिजरुजमपहर लघुतरमिह॥',
-      options: ['अनङ्गक्रीडावृत्तम्', 'रुचिरावृत्तम्', 'शिखावृत्तम्', 'वैतालीयछन्दस्'],
-      ans: 'अनङ्गक्रीडावृत्तम्'
+      title: 'Level 4 - Identify the meter:',
+      question: 'Which metre contains only long syllables in all its quarters?',
+      options: ['Anuṣṭup', 'Āryā ', 'Nāgasvarupiṇi', 'Vidyunmālā'],
+      ans: 'Vidyunmālā'
     },
     {
       id: '8',
-      title: 'Level 4 - Identify',
-      question: 'How many short and long syllables are there in the following verse?<br>रघुकुलनलिनविकसनशशभृति दशमुखरिपुकुलतिमिर हरे।<br>विषधरविषमविषयविषहरमहसि कुरु रतिमिह दशरथतनये॥',
-      options: ['27 long syllables and one short syllable', '27 short syllables and one long syllable', '14 long and 14 short syllables', '20 short and 8 long syllables'],
-      ans: '27 short syllables and one long syllable'
+      title: 'Level 4 - Identify the meter:',
+      question: 'कोऽयं कान्तिः केशव त्वन्मुखेन्दोः<br>कोऽयं वेषः कापि वाचामभूमिः। <br>सेयं सेयं स्वादुता मञ्जुलश्रीः<br> भूयो भूयो भूयशस्त्वां नमामि॥<br>',
+      options: ['Anuṣṭup', 'śālinī ', 'Nāgasvarupiṇi', 'Vidyunmālā'],
+      ans: 'śālinī'
     },
     {
       id: '9',
       title: 'Level 4 - Identify the meter:',
-      question: 'A mixed variety of several varieties of Mātrāsamaka metre gives rise to :',
-      options: ['śikhāvṛttam', 'khañjāvṛttam', 'Pādākulaka', 'bhadravirāṭ'],
-      ans: 'Pādākulaka'
+      question: '<br>लोकाभिरामं रणरङ्गधीरं<br>राजीवनेत्रं रघुवंशनाथम् ।<br>कारुण्यरूपं करुणाकरं तं<br>श्रीरामचन्द्रं शरणं प्रपद्ये ॥',
+      options: ['śālinī', 'Indravajrā', 'Pādākulaka', 'Upendravajrā'],
+      ans: 'Indravajrā'
     },
     {
       id: '10',
       title: 'Level 5 - Identify the meter:',
-      question: 'Verses in which all the quarters are dissimilar from the point of view of number and placement of syllables, are called :',
-      options: ['mātrāsamavṛtta', 'Ardhasamavṛtta', 'khañjāvṛtta', 'Viṣamavṛtta'],
-      ans: 'Viṣamavṛtta'
+      question: 'यत्र प्राक् चत्वारो वर्णा, द्वादशैकादशौ , त्रयोदशचतुर्दशौ गुरू स्यातां अंत्यौ षोडशसप्तदशौ तद्वद्गुरु तां ___ संगिरंते ।',
+      options: ['मंदाक्रांतां', 'मदलेखा', 'शशिवदना', 'पङ्क्तिः'],
+      ans: 'मंदाक्रांतां'
     }
   ]
 })
