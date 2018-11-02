@@ -6,8 +6,7 @@ export const state = () => ({
       title_eng: 'Introduction to Shrutabodha',
       id: 1,
       definition_sans: '<p>श्रुतमात्रेण प्रस्तारादिविनैव छंदसामार्यानुत्पुवादीनां लक्षणं गुरुलघुवर्णमात्रागणादिस्वरूपं बुध्यते ज्ञायते । </p>',
-      definition_eng: '<p></p>',
-      example_sans: ''
+      definition_eng: '<p></p>'
     },
     {
       title_sans: 'गुरुलघुलक्षणम्',
@@ -308,6 +307,78 @@ export const state = () => ({
       id: 43,
       definition_sans: '<p>चत्वारो यत्र वर्णाः प्रथममलघवः षष्ठकः सप्तमोऽपि<br>द्वौ  तद्वत्षोडशाद्यौ मृगमदमुदिते षोडशांत्यौतथात्यौ ।<br> रंभास्तंभोरुकांते मुनिमुनिमुनिभिर्द्दश्यते चेद्विरामो बाले<br> वंद्यैः कवींद्रैः सुतनु निगदिता स्रग्धरा सा प्रसिद्धा ॥</p><p>हे सुदति वंद्यैः पूज्यैः कवींद्रैः प्रसिद्धा इयं स्रग्धरा गदिता । यत्र प्रथमं चत्वारो वर्णा गुरवः संति षष्ठकः सप्तमोऽपि तद्वद्गुरुः । षोडशाद्यौ चतुर्दशपंचदशौ तथांत्यौ सप्तदशाष्टादशौ गुरू स्याताम् । मुनिमुनिमुनिभिर्विरामः । हे रंभास्तंभोरुकांते हे बाले इयं स्रग्धरा प्रसिद्धा मृगस्य मदेन मुदिता सा । रंभायाः स्तंभवदूर्वोः कांतिर्यस्याः सा । सुशोभना दंता यस्याः सा तत्संबुद्धौ । च० अ० २१, ग० म, र, भ, न, य, य, य; यतिः ७, ७, ७॥ </p>',
       definition_eng: ''
+    }
+  ],
+  exercises: [
+    {
+      id: '1',
+      title: 'Level 1 - लघु & गुरु',
+      question: 'Identify the short syllable:',
+      options: ['क', 'क्ष', 'त्र', 'अः'],
+      ans: 'क'
+    },
+    {
+      id: '2',
+      title: 'Level 1 - लघु & गुरु',
+      question: 'Pick the odd one out:',
+      options: ['टम्', 'क्ष', 'ज्ञ', 'र'],
+      ans: 'र'
+    },
+    {
+      id: '3',
+      title: 'Level 2 - गणाः',
+      question: 'Number of syllabic instants in one Gaṇa of Mātrā Chandas',
+      options: ['1', '4', '2', '8'],
+      ans: '4'
+    },
+    {
+      id: '4',
+      title: 'Level 2 - गणाः',
+      question: 'Which  Gaṇa in Varṇa chandas contains all short syllables?',
+      options: ['मगण', 'ल', 'नगण', 'जगण'],
+      ans: 'नगण'
+    },
+    {
+      id: '5',
+      title: 'Level 3 - Identify the metre',
+      question: 'This metre which contains 11 syllables in each quarter has long syllables in its 1st, 2nd, 4th, 5th, 8th, 10th and 11th syllables of each quarter.',
+      options: ['Indravajrā', 'Upendravajrā', 'Pankti', 'Candravartma'],
+      ans: 'Indravajrā'
+    },
+    {
+      id: '6',
+      title: 'Level 3 - Identify the metre',
+      question: 'The metre which contains 30 syllables in each quarter is:',
+      options: ['Anuṣṭup', 'Āryā ', 'kṣamā', 'Rucirā'],
+      ans: 'Āryā '
+    },
+    {
+      id: '7',
+      title: 'Level 3 - Identify the meter:',
+      question: '<br>सौम्यां दृष्टि देहि स्नेहा हे हेऽस्माकं मानं मुक्त्वा<br>शशधरमुखिमुखमपनय मम हृदि मनसिजरुजमपहर लघुतरमिह॥',
+      options: ['अनङ्गक्रीडावृत्तम्', 'रुचिरावृत्तम्', 'शिखावृत्तम्', 'वैतालीयछन्दस्'],
+      ans: 'अनङ्गक्रीडावृत्तम्'
+    },
+    {
+      id: '8',
+      title: 'Level 4 - Identify',
+      question: 'How many short and long syllables are there in the following verse?<br>रघुकुलनलिनविकसनशशभृति दशमुखरिपुकुलतिमिर हरे।<br>विषधरविषमविषयविषहरमहसि कुरु रतिमिह दशरथतनये॥',
+      options: ['27 long syllables and one short syllable', '27 short syllables and one long syllable', '14 long and 14 short syllables', '20 short and 8 long syllables'],
+      ans: '27 short syllables and one long syllable'
+    },
+    {
+      id: '9',
+      title: 'Level 4 - Identify the meter:',
+      question: 'A mixed variety of several varieties of Mātrāsamaka metre gives rise to :',
+      options: ['śikhāvṛttam', 'khañjāvṛttam', 'Pādākulaka', 'bhadravirāṭ'],
+      ans: 'Pādākulaka'
+    },
+    {
+      id: '10',
+      title: 'Level 5 - Identify the meter:',
+      question: 'Verses in which all the quarters are dissimilar from the point of view of number and placement of syllables, are called :',
+      options: ['mātrāsamavṛtta', 'Ardhasamavṛtta', 'khañjāvṛtta', 'Viṣamavṛtta'],
+      ans: 'Viṣamavṛtta'
     }
   ]
 })
