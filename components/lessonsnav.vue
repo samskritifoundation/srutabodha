@@ -124,530 +124,268 @@
         drawer: null,
         items: [
           {
-            title: 'Introduction',
+            title: 'Introduction to Shrutabodha',
             sl_num: '1',
             group: false,
             to: '/lessons/1'
           },
           {
-            title: 'Identifying a Guru',
+            title: 'Identifying a Guru and a Laghu',
             sl_num: '2',
             group: false,
             to: '/lessons/2'
           },
           {
-            title: 'Identifying a Laghu',
+            title: 'Characteristics of Eight Gaṇas',
             sl_num: '3',
             group: false,
             to: '/lessons/3'
           },
           {
-            title: 'Classification of Chandas',
+            title: 'āryā Chandas',
             sl_num: '4',
-            group: true,
-            to: '/lessons/4',
-            subitems: [
-              {
-                title: 'Varna Chandas',
-                sl_num: '4.1',
-                subgroup: true,
-                to: '/lessons/4.1',
-                divs: [
-                  {
-                    title: 'Samam',
-                    sl_num: 'i',
-                    types: 'true',
-                    to: '/lessons/4.1.i',
-                    vrittas: [
-                      {
-                        title: 'Ukta',
-                        sl_num: 'I',
-                        to: '/lessons/4.1.i.I'
-                      },
-                      {
-                        title: 'Atyukta',
-                        sl_num: 'II',
-                        to: '/lessons/4.1.i.II'
-                      },
-                      {
-                        title: 'Madhya',
-                        sl_num: 'III',
-                        to: '/lessons/4.1.i.III'
-                      },
-                      {
-                        title: 'Pratishta',
-                        sl_num: 'IV',
-                        to: '/lessons/4.1.i.IV'
-                      },
-                      {
-                        title: 'Supratishta',
-                        sl_num: 'V',
-                        to: '/lessons/4.1.i.V'
-                      },
-                      {
-                        title: 'Gayatri',
-                        sl_num: 'VI',
-                        to: '/lessons/4.1.i.VI'
-                      },
-                      {
-                        title: 'Ushnik',
-                        sl_num: 'VII',
-                        to: '/lessons/4.1.i.VII'
-                      },
-                      {
-                        title: 'Anushtup',
-                        sl_num: 'VIII',
-                        to: '/lessons/4.1.i.VIII'
-                      },
-                      {
-                        title: 'Bruhati',
-                        sl_num: 'IX',
-                        to: '/lessons/4.1.i.IX'
-                      },
-                      {
-                        title: 'Pankti',
-                        sl_num: 'X',
-                        to: '/lessons/4.1.i.X'
-                      },
-                      {
-                        title: 'Trishtup',
-                        sl_num: 'XI',
-                        to: '/lessons/4.1.i.XI'
-                      },
-                      {
-                        title: 'Jagati',
-                        sl_num: 'XII',
-                        to: '/lessons/4.1.i.XII'
-                      },
-                      {
-                        title: 'Atijagati',
-                        sl_num: 'XIII',
-                        to: '/lessons/4.1.i.XIII'
-                      },
-                      {
-                        title: 'Shakvari',
-                        sl_num: 'XIV',
-                        to: '/lessons/4.1.i.XIV'
-                      },
-                      {
-                        title: 'Atishakvari',
-                        sl_num: 'XV',
-                        to: '/lessons/4.1.i.XV'
-                      },
-                      {
-                        title: 'AshtiH',
-                        sl_num: 'XVI',
-                        to: '/lessons/4.1.i.XVI'
-                      },
-                      {
-                        title: 'AtyashtiH',
-                        sl_num: 'XVII',
-                        to: '/lessons/4.1.i.XVII'
-                      },
-                      {
-                        title: 'DhrutiH',
-                        sl_num: 'XVIII',
-                        to: '/lessons/4.1.i.XVIII'
-                      },
-                      {
-                        title: 'AtidhrutiH',
-                        sl_num: 'XIX',
-                        to: '/lessons/4.1.i.XIX'
-                      },
-                      {
-                        title: 'KrutiH',
-                        sl_num: 'XX',
-                        to: '/lessons/4.1.i.XX'
-                      },
-                      {
-                        title: 'PrarutiH',
-                        sl_num: 'XXI',
-                        to: '/lessons/4.1.i.XXI'
-                      },
-                      {
-                        title: 'AkrutiH',
-                        sl_num: 'XXII',
-                        to: '/lessons/4.1.i.XXII'
-                      },
-                      {
-                        title: 'VikrutiH',
-                        sl_num: 'XXIII',
-                        to: '/lessons/4.1.i.XXIII'
-                      },
-                      {
-                        title: 'SankrutiH',
-                        sl_num: 'XXIV',
-                        to: '/lessons/4.1.i.XXIV'
-                      },
-                      {
-                        title: 'AtikrutiH',
-                        sl_num: 'XXV',
-                        to: '/lessons/4.1.i.XXV'
-                      },
-                      {
-                        title: 'UtkrutiH',
-                        sl_num: 'XXVI',
-                        to: '/lessons/4.1.i.XXVI'
-                      },
-                      {
-                        title: 'Dandakam',
-                        sl_num: 'XXVII',
-                        to: '/lessons/4.1.i.XXVII'
-                      }
-                    ]
-                  },
-                  {
-                    title: 'Ardhasamam',
-                    sl_num: 'ii',
-                    types: 'true',
-                    to: '/lessons/4.1.ii',
-                    vrittas: [
-                      {
-                        title: 'upacitram',
-                        sl_num: 'I',
-                        to: '/lessons/4.1.ii.I'
-                      },
-                      {
-                        title: 'drutamadhyā',
-                        sl_num: 'II',
-                        to: '/lessons/4.1.ii.II'
-                      },
-                      {
-                        title: 'vegavatī',
-                        sl_num: 'III',
-                        to: '/lessons/4.1.ii.III'
-                      },
-                      {
-                        title: 'bhadravirāṭ',
-                        sl_num: 'IV',
-                        to: '/lessons/4.1.ii.IV'
-                      },
-                      {
-                        title: 'ketumatī',
-                        sl_num: 'V',
-                        to: '/lessons/4.1.ii.V'
-                      },
-                      {
-                        title: 'ākhyānakī',
-                        sl_num: 'VI',
-                        to: '/lessons/4.1.ii.VI'
-                      },
-                      {
-                        title: 'viparītākhyānakī',
-                        sl_num: 'VII',
-                        to: '/lessons/4.1.ii.VII'
-                      },
-                      {
-                        title: 'hariṇaplutā',
-                        sl_num: 'VIII',
-                        to: '/lessons/4.1.ii.VIII'
-                      },
-                      {
-                        title: 'aparavaktram',
-                        sl_num: 'IX',
-                        to: '/lessons/4.1.ii.IX'
-                      },
-                      {
-                        title: 'puṣpitāgrā',
-                        sl_num: 'X',
-                        to: '/lessons/4.1.ii.X'
-                      },
-                      {
-                        title: 'yavamatī',
-                        sl_num: 'XI',
-                        to: '/lessons/4.1.ii.XI'
-                      },
-                      {
-                        title: 'viyoginī',
-                        sl_num: 'XII',
-                        to: '/lessons/4.1.ii.XII'
-                      }
-                    ]
-                  },
-                  {
-                    title: 'Vishamam',
-                    sl_num: 'iii',
-                    types: 'true',
-                    to: '/lessons/4.1.iii',
-                    vrittas: [
-                      {
-                        title: 'padacaturūrdhvam',
-                        sl_num: 'I',
-                        to: '/lessons/4.1.iii.I'
-                      },
-                      {
-                        title: 'āpīḍam',
-                        sl_num: 'II',
-                        to: '/lessons/4.1.iii.II'
-                      },
-                      {
-                        title: 'kalikā',
-                        sl_num: 'III',
-                        to: '/lessons/4.1.iii.III'
-                      },
-                      {
-                        title: 'lavalī',
-                        sl_num: 'IV',
-                        to: '/lessons/4.1.iii.IV'
-                      },
-                      {
-                        title: 'amṛtadhārā',
-                        sl_num: 'V',
-                        to: '/lessons/4.1.iii.V'
-                      },
-                      {
-                        title: 'udgatā',
-                        sl_num: 'VI',
-                        to: '/lessons/4.1.iii.VI'
-                      },
-                      {
-                        title: 'saurabhakam',
-                        sl_num: 'VII',
-                        to: '/lessons/4.1.iii.VII'
-                      },
-                      {
-                        title: 'lalitam',
-                        sl_num: 'VIII',
-                        to: '/lessons/4.1.iii.VIII'
-                      },
-                      {
-                        title: 'upasthitapracupitam',
-                        sl_num: 'IX',
-                        to: '/lessons/4.1.iii.IX'
-                      },
-                      {
-                        title: 'vardhamānam',
-                        sl_num: 'X',
-                        to: '/lessons/4.1.iii.X'
-                      },
-                      {
-                        title: 'śuddhavirāḍārṣabham',
-                        sl_num: 'XI',
-                        to: '/lessons/4.1.iii.XI'
-                      }
-                    ]
-                  },
-                  {
-                    title: 'Gatha',
-                    sl_num: 'iv',
-                    to: '/lessons/4.1.iv'
-                  }
-                ]
-              },
-              {
-                title: 'Matra Chandas',
-                sl_num: '4.2',
-                subgroup: true,
-                to: '/lessons/4.2',
-                divs: [
-                  {
-                    title: 'Arya',
-                    sl_num: 'i',
-                    to: '/lessons/4.2.i',
-                    types: true,
-                    vrittas: [
-                      {
-                        title: 'Pathya',
-                        sl_num: 'I',
-                        to: '/lessons/4.2.i.I'
-                      },
-                      {
-                        title: 'Vipula',
-                        sl_num: 'II',
-                        to: '/lessons/4.2.i.II'
-                      },
-                      {
-                        title: 'Chapala',
-                        sl_num: 'III',
-                        to: '/lessons/4.2.i.III'
-                      }
-                    ]
-                  },
-                  {
-                    title: 'Giti',
-                    sl_num: 'ii',
-                    to: '/lessons/4.2.ii',
-                    types: true,
-                    vrittas: [
-                      {
-                        title: 'Upagiti',
-                        sl_num: 'I',
-                        to: '/lessons/4.2.ii.I'
-                      },
-                      {
-                        title: 'Udgiti',
-                        sl_num: 'II',
-                        to: '/lessons/4.2.ii.II'
-                      },
-                      {
-                        title: 'Aryagiti',
-                        sl_num: 'III',
-                        to: '/lessons/4.2.ii.III'
-                      }
-                    ]
-                  },
-                  {
-                    title: 'Vaitaliya',
-                    sl_num: 'iii',
-                    to: '/lessons/4.2.iii',
-                    types: true,
-                    vrittas: [
-                      {
-                        title: 'Aupacchandasikam',
-                        sl_num: 'I',
-                        to: '/lessons/4.2.iii.I'
-                      },
-                      {
-                        title: 'Apatalika',
-                        sl_num: 'II',
-                        to: '/lessons/4.2.iii.II'
-                      },
-                      {
-                        title: 'Dakshinantika',
-                        sl_num: 'III',
-                        to: '/lessons/4.2.iii.III'
-                      },
-                      {
-                        title: 'Udicyavritti',
-                        sl_num: 'IV',
-                        to: '/lessons/4.2.iii.IV'
-                      },
-                      {
-                        title: 'Prachyavritti',
-                        sl_num: 'V',
-                        to: '/lessons/4.2.iii.V'
-                      },
-                      {
-                        title: 'Pravrittakam',
-                        sl_num: 'VI',
-                        to: '/lessons/4.2.iii.VI'
-                      },
-                      {
-                        title: 'Aparantika',
-                        sl_num: 'VII',
-                        to: '/lessons/4.2.iii.VII'
-                      },
-                      {
-                        title: 'Charuhasini',
-                        sl_num: 'VIII',
-                        to: '/lessons/4.2.iii.VIII'
-                      }
-                    ]
-                  },
-                  {
-                    title: 'Vaktram',
-                    sl_num: 'iv',
-                    to: '/lessons/4.2.iv',
-                    types: true,
-                    vrittas: [
-                      {
-                        title: 'Pathyavaktram',
-                        sl_num: 'I',
-                        to: '/lessons/4.2.iv.I'
-                      },
-                      {
-                        title: 'Viparītapathyāvaktram',
-                        sl_num: 'II',
-                        to: '/lessons/4.2.iv.II'
-                      },
-                      {
-                        title: 'capalāvaktram',
-                        sl_num: 'III',
-                        to: '/lessons/4.2.iv.III'
-                      },
-                      {
-                        title: 'yugmavipulā',
-                        sl_num: 'IV',
-                        to: '/lessons/4.2.iv.IV'
-                      },
-                      {
-                        title: 'bhavipulā',
-                        sl_num: 'V',
-                        to: '/lessons/4.2.iv.V'
-                      },
-                      {
-                        title: 'ravipulā',
-                        sl_num: 'VI',
-                        to: '/lessons/4.2.iv.VI'
-                      },
-                      {
-                        title: 'navipulā',
-                        sl_num: 'VII',
-                        to: '/lessons/4.2.iv.VII'
-                      },
-                      {
-                        title: 'tavipulā',
-                        sl_num: 'VIII',
-                        to: '/lessons/4.2.iv.VIII'
-                      }
-                    ]
-                  },
-                  {
-                    title: 'mātrāsamavṛtta',
-                    sl_num: 'v',
-                    to: '/lessons/4.2.v',
-                    types: true,
-                    vrittas: [
-                      {
-                        title: 'acaladhṛtivṛttam',
-                        sl_num: 'I',
-                        to: '/lessons/4.2.v.I'
-                      },
-                      {
-                        title: 'mātrāsamakam',
-                        sl_num: 'II',
-                        to: '/lessons/4.2.v.II'
-                      },
-                      {
-                        title: 'viślokavṛttam',
-                        sl_num: 'III',
-                        to: '/lessons/4.2.v.III'
-                      },
-                      {
-                        title: 'vānavāsikāvṛttam',
-                        sl_num: 'IV',
-                        to: '/lessons/4.2.v.IV'
-                      },
-                      {
-                        title: 'citrāvṛttam',
-                        sl_num: 'V',
-                        to: '/lessons/4.2.v.V'
-                      },
-                      {
-                        title: 'upacitrāvṛttam',
-                        sl_num: 'VI',
-                        to: '/lessons/4.2.v.VI'
-                      },
-                      {
-                        title: 'pādākulakavṛttam',
-                        sl_num: 'VII',
-                        to: '/lessons/4.2.v.VII'
-                      }
-                    ]
-                  },
-                  {
-                    title: 'śikhāvṛttam',
-                    sl_num: 'vi',
-                    to: '/lessons/4.2.vi'
-                  },
-                  {
-                    title: 'khañjāvṛttam',
-                    sl_num: 'vii',
-                    to: '/lessons/4.2.vii'
-                  },
-                  {
-                    title: 'anaṅgakrīḍāvṛttam',
-                    sl_num: 'viii',
-                    to: '/lessons/4.2.viii'
-                  },
-                  {
-                    title: 'rucirāvṛttam',
-                    sl_num: 'ix',
-                    to: '/lessons/4.2.ix'
-                  }
-                ]
-              }
-            ]
+            group: false,
+            to: '/lessons/4'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '5',
+            group: false,
+            to: '/lessons/5'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '6',
+            group: false,
+            to: '/lessons/6'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '7',
+            group: false,
+            to: '/lessons/7'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '8',
+            group: false,
+            to: '/lessons/8'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '9',
+            group: false,
+            to: '/lessons/9'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '10',
+            group: false,
+            to: '/lessons/10'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '11',
+            group: false,
+            to: '/lessons/11'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '12',
+            group: false,
+            to: '/lessons/12'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '13',
+            group: false,
+            to: '/lessons/13'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '14',
+            group: false,
+            to: '/lessons/14'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '15',
+            group: false,
+            to: '/lessons/15'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '16',
+            group: false,
+            to: '/lessons/16'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '17',
+            group: false,
+            to: '/lessons/17'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '18',
+            group: false,
+            to: '/lessons/18'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '19',
+            group: false,
+            to: '/lessons/19'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '20',
+            group: false,
+            to: '/lessons/20'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '21',
+            group: false,
+            to: '/lessons/21'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '22',
+            group: false,
+            to: '/lessons/22'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '23',
+            group: false,
+            to: '/lessons/23'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '24',
+            group: false,
+            to: '/lessons/24'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '25',
+            group: false,
+            to: '/lessons/25'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '26',
+            group: false,
+            to: '/lessons/26'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '27',
+            group: false,
+            to: '/lessons/27'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '28',
+            group: false,
+            to: '/lessons/28'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '29',
+            group: false,
+            to: '/lessons/29'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '30',
+            group: false,
+            to: '/lessons/30'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '31',
+            group: false,
+            to: '/lessons/31'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '32',
+            group: false,
+            to: '/lessons/32'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '33',
+            group: false,
+            to: '/lessons/33'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '34',
+            group: false,
+            to: '/lessons/34'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '35',
+            group: false,
+            to: '/lessons/35'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '36',
+            group: false,
+            to: '/lessons/36'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '37',
+            group: false,
+            to: '/lessons/37'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '38',
+            group: false,
+            to: '/lessons/38'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '39',
+            group: false,
+            to: '/lessons/39'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '40',
+            group: false,
+            to: '/lessons/40'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '41',
+            group: false,
+            to: '/lessons/41'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '42',
+            group: false,
+            to: '/lessons/42'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '43',
+            group: false,
+            to: '/lessons/43'
+          },
+          {
+            title: 'Gīti',
+            sl_num: '44',
+            group: false,
+            to: '/'
           }
         ],
         mini: false,
