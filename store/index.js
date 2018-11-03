@@ -3,10 +3,10 @@ export const state = () => ({
   lessons: [
     {
       title_sans: 'श्रुतबोधः',
-      title_eng: 'Introduction to Shrutabodha',
+      title_eng: 'Introduction to śrutabodha',
       id: 1,
       definition_sans: '<p>श्रुतमात्रेण प्रस्तारादिविनैव छंदसामार्यानुत्पुवादीनां लक्षणं गुरुलघुवर्णमात्रागणादिस्वरूपं बुध्यते ज्ञायते । </p>',
-      definition_eng: '<p></p>'
+      definition_eng: '<p>śrutabodha is that book by which one can learn about the various metres, the short and long syllables, vowels, syllabic instants and syllabic groups just by hearing the contents of the book.</p>'
     },
     {
       title_sans: 'गुरुलघुलक्षणम्',
@@ -21,36 +21,38 @@ export const state = () => ({
       title_eng: 'Characteristics of Eight Gaṇas',
       id: 3,
       definition_sans: 'आदिमध्यावसानेषु भजसायांति गौरवम् ।<br> यरता लाघवं यांति मनौ तु गुरुलाघवम् ॥<br><br><p>भजसाः भगणजगणसगणाः आदिमध्यावसानेषु गौरवं गुरुतां यान्ति । आदिश्च मध्यं च आवसानं च तानि तेषु ।</p><p>आदिगुरुर्भगणः मध्यगुरुर्जगणः अन्त्यगुरुः सगणः </p><p>यरताः यगणरगणतगणाः आदिमध्यावसानेषु लाघवं लघुतां यान्ति। आदिलघुर्यगणः मध्यलघू रगणः अन्त्यलघुस्तगणः। </p>मनौ मगणनगणौ आदिमध्यावसानेषु गुरुलाघवं गुरुतां लघुतां च यातः। सर्वगुरुर्मगणः सर्वलघुर्नगणः भवतीति। </p>',
-      definition_eng: ''
+      definition_eng: '<p>In metres regulated by syllables, each metrical line or quarter of a verse is divided into groups of 3 syllables each. Each group is distinguished from the others by its own particular arrangement of syllables. These groups are called Gaṇas or syllabic feet.</p><p> There are 8 Gaṇas used by Sanskrit prosodians.</p><ul><li>Where all 3 syllables are short it is called <em>na</em> gaṇa. </li><li>Where the 1st syllable is short and the other two are long it is <em>ya</em> gaṇa.</li><li>Where the middle syllable is short and the other two long it is <em>ra</em> gaṇa.</li><li>Where the last syllable is short and the other two long it is <em>ta </em> gaṇa.</li><li>Where all the 3 syllables are long it is <em>ma</em> gaṇa.</li><li>Where the first syllable is long and the other two short it is <em>bha</em> gaṇa.</li><li>Where the middle syllable is long and the other two short it is <em>ja</em> gaṇa.</li><li>Where the last syllable is long and the other two short it is <em>sa</em> gaṇa.</li></ul><p>Apart from these 8 gaṇas there are other two gaṇas named <em>ga</em> - a single long syllable and <em>la</em> - a single short syllable.</p>'
     },
     {
       title_sans: 'आर्या',
       title_eng: 'āryā',
       id: 4,
       definition_sans: 'यस्याः पादे प्रथमे द्वादश मात्रास्तथा तृतीयेऽपि। <br>अष्टादश द्वितीये चयुर्थके पंचदश सार्या॥ <br><br><p>यस्याः प्रथमे पादे द्वादश मात्राः स्युः। तृतीये तथा द्वादश मात्रा भवन्ति। द्वितीयेऽष्टादश मात्रा भवन्ति । चतुर्थके पञ्चदश मात्रा भवन्ति । सा आर्या । चरणेषु क्रमान्पात्राः:- १२,१८,१२,१५ ॥</p>',
-      definition_eng: ''
+      definition_eng: 'āryā metre is the metre which contains 12 Mātrās in its first and third quarters, and 18 Mātrās in second and 15 Mātrās in the fourth quarter.',
+      common: '<p>वृन्दावनेस-लीलं वल्गुद्रुमकांडनिहित तनुयष्टिः।<br>स्मेरमुखार्पितवेणुः कृष्णो यदि मनसि कः स्वर्गः॥'
     },
     {
       title_sans: 'गीतिः',
       title_eng: 'Gīti',
       id: 5,
       definition_sans: 'आर्यापूर्वार्धसमं द्वितीयमपि यत्र भवति हंसगते।<br>छंदोविदस्तदानीं गीतिं ताममृतवाणि भाषंते॥<br><br>पूर्वार्धस्य प्रथमे द्वादश मात्रा द्वितीयेऽष्टादश तृतीये द्वादश चतुर्थकेऽष्टादश संकलनया षष्टिमात्रेत्यर्थः। अमृतमिव वाणी वाक् यस्याः सामृतवाणी तस्याः संबुद्धौ। छन्दांसि वदन्ति जानन्तीति छन्दोविदः शास्त्रज्ञा इत्यर्थः। हंसस्य गतिर्गमनमिव गमनं यस्याः सा हंसगता तस्याः संबुद्धौ हंसगते इत्यर्थः । चरणेषु क्रमान्मात्राः – १२,१८,१२,१८॥',
-      definition_eng: ''
+      definition_eng: 'Gīti metre is the metre which contains 12 Mātrās in its first and third quarters, and 18 Mātrās in second and fourth quarters. It is the same as the first two quarters of āryā metre.',
+      common: '<p>केशबवंशजगीतिर्लोकमनोहरिणहारिणी जयति।<br>गोपीमानग्रन्थेर्विमोचनि दिव्यगायनाश्चर्या॥</p>'
     },
     {
       title_sans: 'उपगीतिः',
       title_eng: 'Upagīti',
       id: '6',
       definition_sans: 'आर्योत्तरार्धतुल्यं प्रथमार्धमपि प्रयुक्तं चेत् ।<br> कामिनि तामुपगीतिं प्रकाशयंते महाकवयः॥<br><br><p>उपगीति - यदि आर्योत्तरार्धतुल्यं प्रथमार्धमपि प्रयुक्तं चेत्प्रयोगीकृतं भवति। उत्तरार्धेन द्वादशमात्रिकेण तुल्यं समानं भवति। प्रथमे द्वादश मात्रा द्वितीये पञ्चदश तृतीये द्वादश चतुर्थे पञ्चदश संकलनया ५४ चतुष्पञ्चाशन्मात्रेत्यर्थः। कामो विद्यते यस्याः सा कामिनी तस्याः संबुद्धौ। महांतश्च ते कवयश्चेति कर्मधारयः। चरणेषु क्रमान्मात्राः – १२,१५,१२,१५॥',
-      definition_eng: '',
-      common: ''
+      definition_eng: 'The upagīti meter is the same as the last two quarters of āryā metre. It has 12, 15, 12 and 15 mātrās in its four pādas respectively.',
+      common: '<p>नवगोपसुन्दरीणां रासोल्लासे मुरारातिम्।<br>अस्मारयदुपगितिः स्वर्गकुरङ्गीदृशां गीतेः॥</p>'
     },
     {
       title_sans: 'पङ्क्तिः',
       title_eng: 'Pankti',
       id: '7',
       definition_sans: 'आद्यचतुर्थं पञ्चमकं चेत्। <br> यत्र गुरु स्यात्साक्षरपङ्क्तिः॥७॥<br><br><p>यस्यां वृत्तौ आद्यं प्रथमं चतुर्थं पञ्चमकं गुरु स्यात्साक्षरपङ्क्तिः ज्ञेया । अक्षरशब्दः पादपूरणार्थः। छन्दस्तु पङ्क्तिः । प्रतिचरणे इदं लक्षणम् । चरणाक्षराणि ५, ग० भ; गु, गु॥</p>',
-      definition_eng: '',
+      definition_eng: 'Pankti is the metre which has its 4th and 5th syllables long in all its quarters.',
       common: ''
     },
     {
@@ -368,7 +370,7 @@ export const state = () => ({
       id: '8',
       title: 'Level 4 - Identify the meter:',
       question: 'कोऽयं कान्तिः केशव त्वन्मुखेन्दोः<br>कोऽयं वेषः कापि वाचामभूमिः। <br>सेयं सेयं स्वादुता मञ्जुलश्रीः<br> भूयो भूयो भूयशस्त्वां नमामि॥<br>',
-      options: ['Anuṣṭup', 'śālinī ', 'Nāgasvarupiṇi', 'Vidyunmālā'],
+      options: ['Anuṣṭup', 'śālinī', 'Nāgasvarupiṇi', 'Vidyunmālā'],
       ans: 'śālinī'
     },
     {

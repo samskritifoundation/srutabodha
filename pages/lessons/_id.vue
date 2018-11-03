@@ -18,42 +18,8 @@
             <div class="font-weight-bold px-1" v-html=lesson.definition_eng></div>
             </v-flex>
           </v-layout>
-          <v-layout class="myheader3" v-html=lesson.common></v-layout>
-          <img :src='lesson.example_img' width="100%" />
-
-      <div v-if="lesson.types" class="myheader3">
-        <div class="text-xs-center mt-3">
-      <v-btn @click="nexttab">next tab</v-btn>
-    </div>
-    <v-tabs
-      v-model="active"
-      color="accent"
-      dark
-      slider-color="yellow"
-    >
-      <v-tab
-        v-for="n in lesson.types"
-        :key="n"
-        ripple
-        class="font-weight-bold"
-      >
-        {{ n }}
-
-      </v-tab>
-      <v-tab-item
-        v-for="n in lesson.type"
-        :key="n"
-      >
-        <v-card flat>
-          <v-card-text class="devanagari" v-html="n.text_sans"></v-card-text>
-          <v-img :src='n.ex_img' width="100%"></v-img>
-        </v-card>
-      </v-tab-item>
-    </v-tabs>
-
-    <!-- <TreeChart :json="treeData" /> -->
-
-  </div>
+          <h1>Example: </h1>
+          <v-layout class="myheader3 devanagari" v-html=lesson.common></v-layout>
   </v-card>
 </v-container>
 </template>
