@@ -184,35 +184,37 @@ export const state = () => ({
       title_eng: 'Rathodhatā',
       id: 24,
       definition_sans: '<p>आद्यमक्षरमतस्तृतीयकं<br>सप्तमं च नवमं तथांतिमम्।<br>दीर्घमिंदुमुखि यत्र जायते<br>तां वदंति कवयो रथोद्धताम्॥</p><p>यत्राद्यमक्षरमतस्तृतीयकं सप्तमं नवमं तथांतिमं एकादशं एते वर्णा दीर्घा द्विमात्रका जायंते। इंदुवन्मुखं यस्याः सा तत्संबुद्धौ। रथोद्धता। च० अ० ११, ग० र, न, र; ल, ग; यतिः ७, ४ ॥</p>',
-      definition_eng: 'In this metre '
+      definition_eng: 'In this metre the first, fourth, seventh, nineth and eleventh syllables are long.'
     },
     {
       title_sans: 'स्वागता ',
       title_eng: 'Svāgatā',
       id: 25,
       definition_sans: '<p>अक्षरं च नवमं दशमं चेत्<br>व्यत्ययाद्भवति यत्र विनीते।<br>प्रोक्तमेणनयने यदि सैव<br>स्वागतेति कविभिः कथितासौ ॥</p><p>एणस्य नयने इव नयने यस्याः सा तस्याः संबुद्धौ। अयमर्थः। रथोद्धतायां नवमं अक्षरं गुरु भवति दशमं चाक्षरं लघु भवति स्वागतायां तु नवममक्षरं लघु दशमं चाक्षरं गुरु भवति । स्वागता। च० अ० ११, ग० र, न, भ, ग, ग; यतिः ७, ४॥</p>',
-      definition_eng: 'In this metre '
+      definition_eng: 'In this metre the 1st, 3rd, 7th, 10th and 11th syllables of each quarter are long and the others short. There is a pause after 3rd and last syllable of each quarter.',
+      common: '<p>रत्नभङ्गविमलैर्गुणतुङ्गै-<br />रर्थिनामभिमतार्पणसक्तैः ।<br />स्वागताभिमुखनम्रशिरस्कैः<br />जीव्यते जगति साधुभिरेव ॥</p>'
     },
     {
       title_sans: 'वैश्वदेवी ',
       title_eng: 'Vaiśvadevī',
       id: 26,
       definition_sans: '<p>ह्रस्वो वर्णः स्यात्सप्तमो यत्र बाले<br>तद्वद्दिंबोष्ठि न्यस्य एकादशाद्यः।<br>बाणैर्विश्रामस्तत्र चेद्वा तुरंगै-<br>र्नाम्ना निर्दिष्टा सुभ्रु सा वैश्वादेवी॥</p><p>यत्र सप्तमो वर्णो ह्रस्वः स्यात्। दशमि वर्णो ह्रस्वः स्यात्। एवं न्यस्तः निक्षिप्तः स्याच्चेद्यदि तत्र पंचभिः सप्तभिश्च विश्रामः स्यात्। हे सुभ्रु सा नाम्ना वैश्वदेवी निर्दिष्टा कथिता। ॥ वैश्वदेवी । च० अ० १२, ग० म, म,य, य; यतिः ५, ७॥</p>',
-      definition_eng: 'In this metre '
+      definition_eng: 'In this metre seventh and tenth syllables are short. There is a pause after fifth and twelfth syllables in all the four quarters.',
+      common: 'अर्चामन्येषां, त्वं विहायामराणा-<br>मद्वैतेनैक,विष्णुमभ्यर्च्य भक्त्या।<br>तत्राशेषात्म, न्यर्चिते भाविनी <br>ते भ्रातः! सम्पन्नाराधना वैश्वदेवी॥'
     },
     {
       title_sans: 'तोटकम्  ',
       title_eng: 'Totakam',
       id: 27,
       definition_sans: '<p>सतृतीयकषष्ठमनंतरते<br>नवमं विरतिप्रभवं गुरु चेत्।<br>घनपीनपयोधरभारनते<br>ननु तोटकवृत्तमिदं कथितम्॥</p><p>तृतीयकं षष्ठं नवमं गुरु स्यात्तृतीयं षष्ठं च तृतीयषष्ठे ताभ्यां सह वर्तत इति। कीदृशं विरतिप्रभवं अंत्यं द्वादशं गुरु स्यात्। अनंता अपरिमिता रतिर्यस्याः सा अनंतरता तत्संबुद्धौ। ॥ तोटकम् । च० अ० १२, ग० स, स, स, स; यतिः ६, ६॥</p>',
-      definition_eng: 'In this metre '
+      definition_eng: 'In this metre third, sixth, nineth and the last twelfth syllables are long.'
     },
     {
       title_sans: 'भुजंगप्रयातम्  ',
       title_eng: 'Bhujangaprāyatam',
       id: 28,
       definition_sans: '<p>यदाद्यं चतुर्थं तथा सप्तमं चे-<br>त्तथैवाक्षरं ह्रस्वमेकादशाद्यम्।<br>शरच्चंद्रविद्वेषिक्रारविंदे<br>तदुक्तं कवींद्रैर्भुजंगप्रयातम् ॥</p><p>आद्यं प्रथमं तथा चतुर्थं तथा सप्तमं एव निश्चितं एकादशाद्यं एकादशस्यादि भूतं दशममक्षरं ह्रस्वं स्यादिति संबंधः। शरदः चंद्रः शरच्चंद्रः तस्य विद्वेषि वक्रमेवारविंदं यस्याः सा तत्संबुद्धौ। ॥ भुजंगप्रयातम् । च० अ०१२, ग० य, य, य, य; यतिः ६, ६॥</p>',
-      definition_eng: 'In this metre '
+      definition_eng: 'In this metre the first, fourth, seventh, tenth syllables are short.'
     },
     {
       title_sans: 'द्रुतविलंबितम् ',
