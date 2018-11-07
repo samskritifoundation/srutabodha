@@ -18,7 +18,7 @@
             <div class="font-weight-bold px-1" v-html=lesson.definition_eng></div>
             </v-flex>
           </v-layout>
-          <h1>Example: </h1>
+          <h1 v-if="lesson.common">Example: </h1>
           <v-layout class="myheader3 devanagari" v-html=lesson.common></v-layout>
   </v-card>
 </v-container>
