@@ -96,11 +96,15 @@ export default {
       let correct = this.exercise.ans
       console.log(correct + ',' + this.chosen)
       if (this.chosen === correct) {
+        let audio = new Audio('https://s3.ap-south-1.amazonaws.com/quiz-sounds/correct.wav')
+        audio.play()
         this.success_alert = true
         this.fail_alert = false
         this.score = 1
         this.color = 'green'
       } else {
+        let audio = new Audio('https://s3.ap-south-1.amazonaws.com/quiz-sounds/wrong.wav')
+        audio.play()
         this.success_alert = false
         this.fail_alert = true
         this.score = 0

@@ -1,8 +1,5 @@
 
 module.exports = {
-  serverMiddleware: [
-    '~api/index.js'
-  ],
   modules: [
     ['@nuxtjs/axios', {baseURL: '/api'}]
   ],
