@@ -9,6 +9,7 @@
         <v-card-title class="myheader2 papyrus text-xs-center">Interactive tutorial for Shrutabodha</v-card-title>
         <v-card-text>
           <p>Interactive self learning software for learning Sanskrit prosody, various types of meters used in poetry.</p>
+          <v-btn round color="accent" class="font-weight-bold text-capitalize" href="https://drive.google.com/file/d/1KEl36DLes6_J_BKrOo1dLlcPF26u3Qkr/view?usp=sharing" large>Download Word format of this website</v-btn>
           <v-btn round color="accent" class="font-weight-bold text-capitalize" href="https://drive.google.com/file/d/14eJc5yqNl44R2aySh-f3XmUNMPRC6phO/view?usp=sharing" large>Download PDF of this website</v-btn>
           <hr class="my-3">
         </v-card-text>
