@@ -399,7 +399,7 @@
       items () {
         if (this.searchlist) {
           return this.titles.filter(item => {
-            return item.title.includes(this.searchlist)
+            return item.title.toLowerCase().includes(this.searchlist.toLowerCase())
           })
         } else {
           return this.titles
